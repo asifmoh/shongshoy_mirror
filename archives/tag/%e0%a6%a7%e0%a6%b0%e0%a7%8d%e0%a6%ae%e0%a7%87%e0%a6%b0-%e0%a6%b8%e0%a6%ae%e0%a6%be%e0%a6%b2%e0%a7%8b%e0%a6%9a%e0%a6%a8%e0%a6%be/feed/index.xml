@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>ধর্মের সমালোচনা &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<atom:link href="/archives/tag/%E0%A6%A7%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%B2%E0%A7%8B%E0%A6%9A%E0%A6%A8%E0%A6%BE/feed" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>জ্ঞান যেখানে সীমাবদ্ধ, যুক্তি যেখানে আড়ষ্ট, মুক্তি সেখানে অসম্ভব</description>
+	<lastBuildDate>Mon, 17 May 2021 10:42:05 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+
+<image>
+	<url>https://i1.wp.com/www.shongshoy.com/wp-content/uploads/2020/12/shongshoy-512.png?fit=32%2C32&#038;ssl=1</url>
+	<title>ধর্মের সমালোচনা &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>সহিহ ভার্চুয়াল জিহাদের কলাকৌশল এবং টেমপ্লেট মন্তব্য সমূহ</title>
+		<link>/archives/753</link>
+					<comments>/archives/753#respond</comments>
+		
+		<dc:creator><![CDATA[আসিফ মহিউদ্দীন]]></dc:creator>
+		<pubDate>Tue, 14 Mar 2017 14:09:05 +0000</pubDate>
+				<category><![CDATA[প্রশ্নোত্তর]]></category>
+		<category><![CDATA[স্যাটায়ার]]></category>
+		<category><![CDATA[ইসলাম]]></category>
+		<category><![CDATA[ধর্মের সমালোচনা]]></category>
+		<guid isPermaLink="false">http://www.nastikya.com/?p=753</guid>
+
+					<description><![CDATA[নাস্তিকদের কঠিন এবং জটিল যুক্তিতর্কে টিকিতে না পারিয়া ব্লগীয় জিহাদের জেহাদীগণ প্রায়শই ব্যান চাই ব্যান চাই ফাঁসি চাই ফাঁসি চাই বলিয়া জিহাদের ধ্বনিতে আকাশ বাতাস প্রকম্পিত করিয়া তোলেন। অশ্লীল গালাগালির মোটামুটি বন্যা বয়ে যায়]]></description>
+		
+					<wfw:commentRss>/archives/753/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>ইহুদী বুড়ির গল্প</title>
+		<link>/archives/69</link>
+					<comments>/archives/69#comments</comments>
+		
+		<dc:creator><![CDATA[Asif Mohiuddin]]></dc:creator>
+		<pubDate>Wed, 11 Jan 2017 13:13:13 +0000</pubDate>
+				<category><![CDATA[সম্পাদকীয়]]></category>
+		<category><![CDATA[সংশয়বাদ]]></category>
+		<category><![CDATA[সাধারণ]]></category>
+		<category><![CDATA[ইসলাম ত্যাগ]]></category>
+		<category><![CDATA[ইহুদী]]></category>
+		<category><![CDATA[কটূক্তি]]></category>
+		<category><![CDATA[কাফের]]></category>
+		<category><![CDATA[ধর্মের সমালোচনা]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[এক ইহুদী বুড়ি রোজ মহানবীর নামাজে যাবার পথে কাঁটা বিছিয়ে রাখতো, মহানবী নামাজে সিজদা করার সময় পিঠে উটের নাড়িভুঁড়ি চাপিয়ে দিতো, নানান অত্যাচার করতো, অশ্রাব্য ভাষায় গালাগালি করতো]]></description>
+		
+					<wfw:commentRss>/archives/69/feed</wfw:commentRss>
+			<slash:comments>10</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

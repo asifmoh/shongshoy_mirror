@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>টাইম রিলেটিভিটি &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<atom:link href="/archives/tag/%E0%A6%9F%E0%A6%BE%E0%A6%87%E0%A6%AE-%E0%A6%B0%E0%A6%BF%E0%A6%B2%E0%A7%87%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%9F%E0%A6%BF/feed" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>জ্ঞান যেখানে সীমাবদ্ধ, যুক্তি যেখানে আড়ষ্ট, মুক্তি সেখানে অসম্ভব</description>
+	<lastBuildDate>Wed, 03 Jun 2020 18:28:57 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+
+<image>
+	<url>https://i1.wp.com/www.shongshoy.com/wp-content/uploads/2020/12/shongshoy-512.png?fit=32%2C32&#038;ssl=1</url>
+	<title>টাইম রিলেটিভিটি &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>কুরআনে আইনস্টাইনের টাইম রিলেটিভিটি?</title>
+		<link>/archives/17064</link>
+					<comments>/archives/17064#comments</comments>
+		
+		<dc:creator><![CDATA[Marufur Rahman Khan]]></dc:creator>
+		<pubDate>Thu, 23 Jan 2020 05:44:07 +0000</pubDate>
+				<category><![CDATA[ইসলাম]]></category>
+		<category><![CDATA[প্রতিক্রিয়া]]></category>
+		<category><![CDATA[প্রোপাগান্ডা]]></category>
+		<category><![CDATA[স্টিকি]]></category>
+		<category><![CDATA[কুরআন]]></category>
+		<category><![CDATA[কুরআনের বৈজ্ঞানিক মিরাকল]]></category>
+		<category><![CDATA[টাইম রিলেটিভিটি]]></category>
+		<category><![CDATA[থিওরি অফ রিলেটিভিটি]]></category>
+		<guid isPermaLink="false">/?p=17064</guid>
+
+					<description><![CDATA[কিছু ইসলামিস্ট দাবি করে যে, কুরআনের লেখক আইনস্টাইনের টাইম রিলেটিভিটি সম্পর্কে জানতেন এবং তাই কুরআনের লেখক ১৪০০ আগের কোনো সাধারণ মানুষ হতে পারে না]]></description>
+		
+					<wfw:commentRss>/archives/17064/feed</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

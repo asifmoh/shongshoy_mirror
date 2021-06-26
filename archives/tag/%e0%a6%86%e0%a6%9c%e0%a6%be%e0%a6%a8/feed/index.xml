@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>আজান &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<atom:link href="/archives/tag/%E0%A6%86%E0%A6%9C%E0%A6%BE%E0%A6%A8/feed" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>জ্ঞান যেখানে সীমাবদ্ধ, যুক্তি যেখানে আড়ষ্ট, মুক্তি সেখানে অসম্ভব</description>
+	<lastBuildDate>Sat, 25 Jan 2020 01:28:47 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+
+<image>
+	<url>https://i1.wp.com/www.shongshoy.com/wp-content/uploads/2020/12/shongshoy-512.png?fit=32%2C32&#038;ssl=1</url>
+	<title>আজান &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>একটি আযানের দোয়া ও বাংলাদেশ টেলিভিশনের সুন্নতে খৎনা</title>
+		<link>/archives/7967</link>
+					<comments>/archives/7967#respond</comments>
+		
+		<dc:creator><![CDATA[shubochon]]></dc:creator>
+		<pubDate>Wed, 29 Aug 2018 19:36:59 +0000</pubDate>
+				<category><![CDATA[ইসলাম]]></category>
+		<category><![CDATA[আজান]]></category>
+		<guid isPermaLink="false">https://www.nastikya.com/?p=7967</guid>
+
+					<description><![CDATA[কে ওই শোনাল মোরে আযানের ধ্বনি।মর্মে মর্মে সেই সুর, বাজিল কি সুমধুরআকুল হইল প্রাণ, নাচিল ধমনী।কি মধুর আযানের ধ্বনি! কবি]]></description>
+		
+					<wfw:commentRss>/archives/7967/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

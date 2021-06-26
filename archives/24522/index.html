@@ -1,0 +1,3342 @@
+<!DOCTYPE html>
+<html lang="bn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="profile" href="https://gmpg.org/xfn/11" />
+    <link rel="prefetch" href="/pwa-manifest.json" />
+    <link rel="manifest" href="/pwa-manifest.json" />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="192x192"
+      href="/wp-content/uploads/2020/07/shongshoy-192.png"
+    />
+
+    <title>
+      P-value কী এবং বৈজ্ঞানিক পরীক্ষা নিরীক্ষায় এই মানের গুরুত্ব | সংশয় -
+      চিন্তার মুক্তির আন্দোলন
+    </title>
+    <meta
+      name="description"
+      content="P-Value মানেই probability নয়। P-Value এবং Probability-র মধ্যে পার্থক্য কী, এবং সেই বিষয়ে একটি ধারণা পেতে এই লেখাটা পড়তে পারেন।"
+    />
+    <meta name="robots" content="nofollow, noindex" />
+    <link rel="canonical" href="/archives/24522" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta
+      property="og:title"
+      content="P-value কী এবং বৈজ্ঞানিক পরীক্ষা নিরীক্ষায় এই মানের গুরুত্ব | সংশয় - চিন্তার মুক্তির আন্দোলন"
+    />
+    <meta
+      property="og:description"
+      content="P-Value মানেই probability নয়। P-Value এবং Probability-র মধ্যে পার্থক্য কী, এবং সেই বিষয়ে একটি ধারণা পেতে এই লেখাটা পড়তে পারেন।"
+    />
+    <meta
+      property="og:url"
+      content="https://www.shongshoy.com/archives/24522"
+    />
+    <meta property="og:site_name" content="সংশয় - চিন্তার মুক্তির আন্দোলন" />
+    <meta
+      property="article:publisher"
+      content="https://www.facebook.com/shongshoydotcom"
+    />
+    <meta
+      property="article:author"
+      content="https://www.facebook.com/profile.php?id=100053096741963"
+    />
+    <meta property="article:tag" content="Henry Gee" />
+    <meta property="article:tag" content="P-Value" />
+    <meta property="article:tag" content="Statistics" />
+    <meta property="article:section" content="বিজ্ঞান" />
+    <meta property="og:updated_time" content="2021-05-17T10:37:48+01:00" />
+    <meta property="fb:app_id" content="242892337448563" />
+    <meta
+      property="og:image"
+      content="https://i0.wp.com/www.shongshoy.com/wp-content/uploads/2021/02/Normal-Distribution.png"
+    />
+    <meta
+      property="og:image:secure_url"
+      content="https://i0.wp.com/www.shongshoy.com/wp-content/uploads/2021/02/Normal-Distribution.png"
+    />
+    <meta property="og:image:width" content="704" />
+    <meta property="og:image:height" content="357" />
+    <meta property="og:image:alt" content="P-Value" />
+    <meta property="og:image:type" content="image/png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="P-value কী এবং বৈজ্ঞানিক পরীক্ষা নিরীক্ষায় এই মানের গুরুত্ব | সংশয় - চিন্তার মুক্তির আন্দোলন"
+    />
+    <meta
+      name="twitter:description"
+      content="P-Value মানেই probability নয়। P-Value এবং Probability-র মধ্যে পার্থক্য কী, এবং সেই বিষয়ে একটি ধারণা পেতে এই লেখাটা পড়তে পারেন।"
+    />
+    <meta name="twitter:site" content="@iamasifm" />
+    <meta name="twitter:creator" content="@iamasifm" />
+    <meta
+      name="twitter:image"
+      content="https://i0.wp.com/www.shongshoy.com/wp-content/uploads/2021/02/Normal-Distribution.png"
+    />
+    <script type="application/ld+json" class="rank-math-schema">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": ["EducationalOrganization", "Organization"],
+            "@id": "https://www.shongshoy.com/#organization",
+            "name": "Shongshoy.com",
+            "url": "https://www.shongshoy.com",
+            "email": "info@shongshoy.com",
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://www.shongshoy.com/#logo",
+              "url": "https://www.shongshoy.com/wp-content/uploads/2020/11/shonghoy_slogan.png",
+              "caption": "Shongshoy.com",
+              "inLanguage": "en-US",
+              "width": "300",
+              "height": "143"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.shongshoy.com/#website",
+            "url": "https://www.shongshoy.com",
+            "name": "Shongshoy.com",
+            "publisher": { "@id": "https://www.shongshoy.com/#organization" },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "ImageObject",
+            "@id": "https://i0.wp.com/www.shongshoy.com/wp-content/uploads/2021/02/Normal-Distribution.png?fit=704%2C357&amp;ssl=1",
+            "url": "https://i0.wp.com/www.shongshoy.com/wp-content/uploads/2021/02/Normal-Distribution.png?fit=704%2C357&amp;ssl=1",
+            "width": "704",
+            "height": "357",
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Person",
+            "@id": "https://www.shongshoy.com/author/mondal-amit",
+            "name": "Amit",
+            "url": "https://www.shongshoy.com/author/mondal-amit",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://secure.gravatar.com/avatar/1adef4b5c2760a7a53388a8e8ae295ae?s=96&amp;d=mm&amp;r=g",
+              "url": "https://secure.gravatar.com/avatar/1adef4b5c2760a7a53388a8e8ae295ae?s=96&amp;d=mm&amp;r=g",
+              "caption": "Amit",
+              "inLanguage": "en-US"
+            },
+            "sameAs": [
+              "https://www.facebook.com/profile.php?id=100053096741963"
+            ],
+            "worksFor": { "@id": "https://www.shongshoy.com/#organization" }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.shongshoy.com/archives/24522#webpage",
+            "url": "https://www.shongshoy.com/archives/24522",
+            "name": "P-value কী এবং বৈজ্ঞানিক পরীক্ষা নিরীক্ষায় এই মানের গুরুত্ব | সংশয় - চিন্তার মুক্তির আন্দোলন",
+            "datePublished": "2021-02-17T09:49:54+00:00",
+            "dateModified": "2021-05-17T10:37:48+01:00",
+            "author": { "@id": "https://www.shongshoy.com/author/mondal-amit" },
+            "isPartOf": { "@id": "https://www.shongshoy.com/#website" },
+            "primaryImageOfPage": {
+              "@id": "https://i0.wp.com/www.shongshoy.com/wp-content/uploads/2021/02/Normal-Distribution.png?fit=704%2C357&amp;ssl=1"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Article",
+            "headline": "P-value কী এবং বৈজ্ঞানিক পরীক্ষা নিরীক্ষায় এই মানের গুরুত্ব | সংশয় - চিন্তার মুক্তির আন্দোলন",
+            "datePublished": "2021-02-17T09:49:54+00:00",
+            "dateModified": "2021-05-17T10:37:48+01:00",
+            "author": { "@type": "Person", "name": "Amit" },
+            "publisher": { "@id": "https://www.shongshoy.com/#organization" },
+            "description": "P-Value মানেই probability নয়। P-Value এবং Probability-র মধ্যে পার্থক্য কী, এবং সেই বিষয়ে একটি ধারণা পেতে এই লেখাটা পড়তে পারেন।",
+            "name": "P-value কী এবং বৈজ্ঞানিক পরীক্ষা নিরীক্ষায় এই মানের গুরুত্ব | সংশয় - চিন্তার মুক্তির আন্দোলন",
+            "@id": "https://www.shongshoy.com/archives/24522#richSnippet",
+            "isPartOf": {
+              "@id": "https://www.shongshoy.com/archives/24522#webpage"
+            },
+            "image": {
+              "@id": "https://i0.wp.com/www.shongshoy.com/wp-content/uploads/2021/02/Normal-Distribution.png?fit=704%2C357&amp;ssl=1"
+            },
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://www.shongshoy.com/archives/24522#webpage"
+            }
+          }
+        ]
+      }
+    </script>
+
+    <link rel="amphtml" href="/archives/24522?amp" />
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="//s.w.org" />
+    <link rel="dns-prefetch" href="//c0.wp.com" />
+    <link rel="dns-prefetch" href="//i0.wp.com" />
+    <link rel="dns-prefetch" href="//i1.wp.com" />
+    <link rel="dns-prefetch" href="//i2.wp.com" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="সংশয় - চিন্তার মুক্তির আন্দোলন &raquo; Feed"
+      href="/feed"
+    />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="সংশয় - চিন্তার মুক্তির আন্দোলন &raquo; Comments Feed"
+      href="/comments/feed"
+    />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="সংশয় - চিন্তার মুক্তির আন্দোলন &raquo; P-value কী এবং বৈজ্ঞানিক পরীক্ষা নিরীক্ষায় এই মানের গুরুত্ব Comments Feed"
+      href="/archives/24522/feed"
+    />
+    <script type="text/javascript">
+      window._wpemojiSettings = {
+        baseUrl: "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/",
+        ext: ".png",
+        svgUrl: "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/",
+        svgExt: ".svg",
+        source: {
+          concatemoji:
+            "https:\/\/www.shongshoy.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.2",
+        },
+      };
+      !(function (e, a, t) {
+        var n,
+          r,
+          o,
+          i = a.createElement("canvas"),
+          p = i.getContext && i.getContext("2d");
+        function s(e, t) {
+          var a = String.fromCharCode;
+          p.clearRect(0, 0, i.width, i.height),
+            p.fillText(a.apply(this, e), 0, 0);
+          e = i.toDataURL();
+          return (
+            p.clearRect(0, 0, i.width, i.height),
+            p.fillText(a.apply(this, t), 0, 0),
+            e === i.toDataURL()
+          );
+        }
+        function c(e) {
+          var t = a.createElement("script");
+          (t.src = e),
+            (t.defer = t.type = "text/javascript"),
+            a.getElementsByTagName("head")[0].appendChild(t);
+        }
+        for (
+          o = Array("flag", "emoji"),
+            t.supports = { everything: !0, everythingExceptFlag: !0 },
+            r = 0;
+          r < o.length;
+          r++
+        )
+          (t.supports[o[r]] = (function (e) {
+            if (!p || !p.fillText) return !1;
+            switch (
+              ((p.textBaseline = "top"), (p.font = "600 32px Arial"), e)
+            ) {
+              case "flag":
+                return s(
+                  [127987, 65039, 8205, 9895, 65039],
+                  [127987, 65039, 8203, 9895, 65039]
+                )
+                  ? !1
+                  : !s(
+                      [55356, 56826, 55356, 56819],
+                      [55356, 56826, 8203, 55356, 56819]
+                    ) &&
+                      !s(
+                        [
+                          55356, 57332, 56128, 56423, 56128, 56418, 56128,
+                          56421, 56128, 56430, 56128, 56423, 56128, 56447,
+                        ],
+                        [
+                          55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418,
+                          8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128,
+                          56423, 8203, 56128, 56447,
+                        ]
+                      );
+              case "emoji":
+                return !s(
+                  [55357, 56424, 8205, 55356, 57212],
+                  [55357, 56424, 8203, 55356, 57212]
+                );
+            }
+            return !1;
+          })(o[r])),
+            (t.supports.everything = t.supports.everything && t.supports[o[r]]),
+            "flag" !== o[r] &&
+              (t.supports.everythingExceptFlag =
+                t.supports.everythingExceptFlag && t.supports[o[r]]);
+        (t.supports.everythingExceptFlag =
+          t.supports.everythingExceptFlag && !t.supports.flag),
+          (t.DOMReady = !1),
+          (t.readyCallback = function () {
+            t.DOMReady = !0;
+          }),
+          t.supports.everything ||
+            ((n = function () {
+              t.readyCallback();
+            }),
+            a.addEventListener
+              ? (a.addEventListener("DOMContentLoaded", n, !1),
+                e.addEventListener("load", n, !1))
+              : (e.attachEvent("onload", n),
+                a.attachEvent("onreadystatechange", function () {
+                  "complete" === a.readyState && t.readyCallback();
+                })),
+            (n = t.source || {}).concatemoji
+              ? c(n.concatemoji)
+              : n.wpemoji && n.twemoji && (c(n.twemoji), c(n.wpemoji)));
+      })(window, document, window._wpemojiSettings);
+    </script>
+    <style type="text/css">
+      img.wp-smiley,
+      img.emoji {
+        display: inline !important;
+        border: none !important;
+        box-shadow: none !important;
+        height: 1em !important;
+        width: 1em !important;
+        margin: 0 0.07em !important;
+        vertical-align: -0.1em !important;
+        background: none !important;
+        padding: 0 !important;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="wp-block-library-css"
+      href="https://c0.wp.com/c/5.7.2/wp-includes/css/dist/block-library/style.min.css"
+      type="text/css"
+      media="all"
+    />
+    <style id="wp-block-library-inline-css" type="text/css">
+      .has-text-align-justify {
+        text-align: justify;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="wp-block-library-theme-css"
+      href="https://c0.wp.com/c/5.7.2/wp-includes/css/dist/block-library/theme.min.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="toc-screen-css"
+      href="/wp-content/plugins/table-of-contents-plus/screen.min.css?ver=2106"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="chld_thm_cfg_parent-css"
+      href="/wp-content/themes/colormag/style.css?ver=5.7.2"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="colormag_style-css"
+      href="/wp-content/themes/Shongshoytheme/style.css?ver=2.0.7"
+      type="text/css"
+      media="all"
+    />
+    <style id="colormag_style-inline-css" type="text/css">
+      .colormag-button,
+      blockquote,
+      button,
+      input[type="reset"],
+      input[type="button"],
+      input[type="submit"],
+      #masthead.colormag-header-clean
+        #site-navigation.main-small-navigation
+        .menu-toggle,
+      .fa.search-top:hover,
+      #masthead.colormag-header-classic
+        #site-navigation.main-small-navigation
+        .menu-toggle,
+      .main-navigation ul li.focus > a,
+      #masthead.colormag-header-classic
+        .main-navigation
+        ul
+        ul.sub-menu
+        li.focus
+        > a,
+      .home-icon.front_page_on,
+      .main-navigation a:hover,
+      .main-navigation ul li ul li a:hover,
+      .main-navigation ul li ul li:hover > a,
+      .main-navigation ul li.current-menu-ancestor > a,
+      .main-navigation ul li.current-menu-item ul li a:hover,
+      .main-navigation ul li.current-menu-item > a,
+      .main-navigation ul li.current_page_ancestor > a,
+      .main-navigation ul li.current_page_item > a,
+      .main-navigation ul li:hover > a,
+      .main-small-navigation li a:hover,
+      .site-header .menu-toggle:hover,
+      #masthead.colormag-header-classic
+        .main-navigation
+        ul
+        ul.sub-menu
+        li:hover
+        > a,
+      #masthead.colormag-header-classic
+        .main-navigation
+        ul
+        ul.sub-menu
+        li.current-menu-ancestor
+        > a,
+      #masthead.colormag-header-classic
+        .main-navigation
+        ul
+        ul.sub-menu
+        li.current-menu-item
+        > a,
+      #masthead .main-small-navigation li:hover > a,
+      #masthead .main-small-navigation li.current-page-ancestor > a,
+      #masthead .main-small-navigation li.current-menu-ancestor > a,
+      #masthead .main-small-navigation li.current-page-item > a,
+      #masthead .main-small-navigation li.current-menu-item > a,
+      .main-small-navigation .current-menu-item > a,
+      .main-small-navigation .current_page_item > a,
+      .promo-button-area a:hover,
+      #content .wp-pagenavi .current,
+      #content .wp-pagenavi a:hover,
+      .format-link .entry-content a,
+      .pagination span,
+      .comments-area .comment-author-link span,
+      #secondary .widget-title span,
+      .footer-widgets-area .widget-title span,
+      .colormag-footer--classic .footer-widgets-area .widget-title span::before,
+      .advertisement_above_footer .widget-title span,
+      #content .post .article-content .above-entry-meta .cat-links a,
+      .page-header .page-title span,
+      .entry-meta .post-format i,
+      .more-link,
+      .no-post-thumbnail,
+      .widget_featured_slider .slide-content .above-entry-meta .cat-links a,
+      .widget_highlighted_posts .article-content .above-entry-meta .cat-links a,
+      .widget_featured_posts .article-content .above-entry-meta .cat-links a,
+      .widget_featured_posts .widget-title span,
+      .widget_slider_area .widget-title span,
+      .widget_beside_slider .widget-title span,
+      .wp-block-quote,
+      .wp-block-quote.is-style-large,
+      .wp-block-quote.has-text-align-right {
+        background-color: #db3236;
+      }
+      #site-title a,
+      .next a:hover,
+      .previous a:hover,
+      .social-links i.fa:hover,
+      a,
+      #masthead.colormag-header-clean .social-links li:hover i.fa,
+      #masthead.colormag-header-classic .social-links li:hover i.fa,
+      #masthead.colormag-header-clean .breaking-news .newsticker a:hover,
+      #masthead.colormag-header-classic .breaking-news .newsticker a:hover,
+      #masthead.colormag-header-classic #site-navigation .fa.search-top:hover,
+      #masthead.colormag-header-classic
+        #site-navigation.main-navigation
+        .random-post
+        a:hover
+        .fa-random,
+      .dark-skin
+        #masthead.colormag-header-classic
+        #site-navigation.main-navigation
+        .home-icon:hover
+        .fa,
+      #masthead .main-small-navigation li:hover > .sub-toggle i,
+      .better-responsive-menu
+        #masthead
+        .main-small-navigation
+        .sub-toggle.active
+        .fa,
+      #masthead.colormag-header-classic .main-navigation .home-icon a:hover .fa,
+      .pagination a span:hover,
+      #content .comments-area a.comment-edit-link:hover,
+      #content .comments-area a.comment-permalink:hover,
+      #content .comments-area article header cite a:hover,
+      .comments-area .comment-author-link a:hover,
+      .comment .comment-reply-link:hover,
+      .nav-next a,
+      .nav-previous a,
+      .footer-widgets-area a:hover,
+      a#scroll-up i,
+      #content .post .article-content .entry-title a:hover,
+      .entry-meta .byline i,
+      .entry-meta .cat-links i,
+      .entry-meta a,
+      .post .entry-title a:hover,
+      .search .entry-title a:hover,
+      .entry-meta .comments-link a:hover,
+      .entry-meta .edit-link a:hover,
+      .entry-meta .posted-on a:hover,
+      .entry-meta .tag-links a:hover,
+      .single #content .tags a:hover,
+      .post-box .entry-meta .cat-links a:hover,
+      .post-box .entry-meta .posted-on a:hover,
+      .post.post-box .entry-title a:hover,
+      .widget_featured_slider .slide-content .below-entry-meta .byline a:hover,
+      .widget_featured_slider
+        .slide-content
+        .below-entry-meta
+        .comments
+        a:hover,
+      .widget_featured_slider
+        .slide-content
+        .below-entry-meta
+        .posted-on
+        a:hover,
+      .widget_featured_slider .slide-content .entry-title a:hover,
+      .byline a:hover,
+      .comments a:hover,
+      .edit-link a:hover,
+      .posted-on a:hover,
+      .tag-links a:hover,
+      .widget_highlighted_posts
+        .article-content
+        .below-entry-meta
+        .byline
+        a:hover,
+      .widget_highlighted_posts
+        .article-content
+        .below-entry-meta
+        .comments
+        a:hover,
+      .widget_highlighted_posts
+        .article-content
+        .below-entry-meta
+        .posted-on
+        a:hover,
+      .widget_highlighted_posts .article-content .entry-title a:hover,
+      .widget_featured_posts .article-content .entry-title a:hover,
+      .related-posts-main-title .fa,
+      .single-related-posts .article-content .entry-title a:hover {
+        color: #db3236;
+      }
+      #site-navigation {
+        border-top-color: #db3236;
+      }
+      #masthead.colormag-header-classic
+        .main-navigation
+        ul
+        ul.sub-menu
+        li:hover,
+      #masthead.colormag-header-classic
+        .main-navigation
+        ul
+        ul.sub-menu
+        li.current-menu-ancestor,
+      #masthead.colormag-header-classic
+        .main-navigation
+        ul
+        ul.sub-menu
+        li.current-menu-item,
+      #masthead.colormag-header-classic #site-navigation .menu-toggle,
+      #masthead.colormag-header-classic #site-navigation .menu-toggle:hover,
+      #masthead.colormag-header-classic .main-navigation ul > li:hover > a,
+      #masthead.colormag-header-classic
+        .main-navigation
+        ul
+        > li.current-menu-item
+        > a,
+      #masthead.colormag-header-classic
+        .main-navigation
+        ul
+        > li.current-menu-ancestor
+        > a,
+      #masthead.colormag-header-classic .main-navigation ul li.focus > a,
+      .promo-button-area a:hover,
+      .pagination a span:hover {
+        border-color: #db3236;
+      }
+      #secondary .widget-title,
+      .footer-widgets-area .widget-title,
+      .advertisement_above_footer .widget-title,
+      .page-header .page-title,
+      .widget_featured_posts .widget-title,
+      .widget_slider_area .widget-title,
+      .widget_beside_slider .widget-title {
+        border-bottom-color: #db3236;
+      }
+      @media (max-width: 768px) {
+        .better-responsive-menu .sub-toggle {
+          background-color: #bd1418;
+        }
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="colormag-fontawesome-css"
+      href="/wp-content/themes/colormag/fontawesome/css/font-awesome.min.css?ver=2.0.7"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="chld_thm_cfg_separate-css"
+      href="/wp-content/themes/Shongshoytheme/ctc-style.css?ver=5.7.2"
+      type="text/css"
+      media="all"
+    />
+    <style id="colormag_googlefonts-css" media="all">
+      @font-face {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        src: url(/fonts.gstatic.com/s/opensans/v20/mem8YaGs126MiZpBA-UFVZ0e.ttf)
+          format("truetype");
+      }
+      @font-face {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 600;
+        src: url(/fonts.gstatic.com/s/opensans/v20/mem5YaGs126MiZpBA-UNirkOUuhs.ttf)
+          format("truetype");
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="pwaforwp-style-css"
+      href="/wp-content/plugins/pwa-for-wp/assets/css/pwaforwp-main.min.css?ver=1.7.33"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="jetpack_css-css"
+      href="https://c0.wp.com/p/jetpack/9.8.1/css/jetpack.css"
+      type="text/css"
+      media="all"
+    />
+    <script
+      type="text/javascript"
+      src="https://c0.wp.com/c/5.7.2/wp-includes/js/jquery/jquery.min.js"
+      id="jquery-core-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://c0.wp.com/c/5.7.2/wp-includes/js/jquery/jquery-migrate.min.js"
+      id="jquery-migrate-js"
+    ></script>
+    <!--[if lte IE 8]>
+      <script
+        type="text/javascript"
+        src="https://www.shongshoy.com/wp-content/themes/colormag/js/html5shiv.min.js?ver=2.0.7"
+        id="html5-js"
+      ></script>
+    <![endif]-->
+    <link rel="https://api.w.org/" href="/wp-json/" />
+    <link
+      rel="alternate"
+      type="application/json"
+      href="/wp-json/wp/v2/posts/24522"
+    />
+    <link
+      rel="EditURI"
+      type="application/rsd+xml"
+      title="RSD"
+      href="/xmlrpc.php?rsd"
+    />
+    <link
+      rel="wlwmanifest"
+      type="application/wlwmanifest+xml"
+      href="/wp-includes/wlwmanifest.xml"
+    />
+    <meta name="generator" content="WordPress 5.7.2" />
+    <link rel="shortlink" href="/?p=24522" />
+    <link
+      rel="alternate"
+      type="application/json+oembed"
+      href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Farchives%2F24522"
+    />
+    <link
+      rel="alternate"
+      type="text/xml+oembed"
+      href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Farchives%2F24522&#038;format=xml"
+    />
+    <style type="text/css">
+      ol.footnotes > li {
+        list-style-type: decimal;
+      }
+      ol.footnotes {
+        color: #666666;
+      }
+      ol.footnotes li {
+        font-size: 80%;
+      }
+    </style>
+    <style type="text/css">
+      @media screen {
+        .printfriendly {
+          position: relative;
+          z-index: 1000;
+          margin: px px px px;
+        }
+        .printfriendly a,
+        .printfriendly a:link,
+        .printfriendly a:visited,
+        .printfriendly a:hover,
+        .printfriendly a:active {
+          font-weight: 600;
+          cursor: pointer;
+          text-decoration: none;
+          border: none;
+          -webkit-box-shadow: none;
+          -moz-box-shadow: none;
+          box-shadow: none;
+          outline: none;
+          font-size: 14px !important;
+          color: #3aaa11 !important;
+        }
+        .printfriendly.pf-alignleft {
+          float: left;
+        }
+        .printfriendly.pf-alignright {
+          float: right;
+        }
+        .printfriendly.pf-aligncenter {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+
+      @media print {
+        .printfriendly {
+          display: none;
+        }
+      }
+
+      .pf-button.pf-button-excerpt {
+        display: none;
+      }
+    </style>
+    <style type="text/css">
+      div#toc_container ul li {
+        font-size: 14px;
+      }
+    </style>
+    <style type="text/css">
+      img#wpstats {
+        display: none;
+      }
+    </style>
+    <script>
+      if (screen.width < 769) {
+        window.location = "https://www.shongshoy.com/archives/24522?amp";
+      }
+    </script>
+    <link
+      rel="icon"
+      href="https://i1.wp.com/www.shongshoy.com/wp-content/uploads/2020/12/shongshoy-512.png?fit=32%2C32&#038;ssl=1"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      href="https://i1.wp.com/www.shongshoy.com/wp-content/uploads/2020/12/shongshoy-512.png?fit=192%2C192&#038;ssl=1"
+      sizes="192x192"
+    />
+    <meta
+      name="msapplication-TileImage"
+      content="https://i1.wp.com/www.shongshoy.com/wp-content/uploads/2020/12/shongshoy-512.png?fit=270%2C270&#038;ssl=1"
+    />
+    <meta name="pwaforwp" content="wordpress-plugin" />
+    <meta name="theme-color" content="#f20000" />
+    <meta
+      name="apple-mobile-web-app-title"
+      content="সংশয় - চিন্তার মুক্তির আন্দোলন"
+    />
+    <meta name="application-name" content="সংশয় - চিন্তার মুক্তির আন্দোলন" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="YES" />
+    <link
+      rel="apple-touch-startup-image"
+      href="/wp-content/uploads/2020/07/shongshoy-192.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="192x192"
+      href="/wp-content/uploads/2020/07/shongshoy-192.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="512x512"
+      href="/wp-content/uploads/2020/12/shongshoy-512.png"
+    />
+    <style type="text/css" id="wp-custom-css">
+      @font-face {
+      font-family: Shobuj Nolua;
+      src: url(/wp-content/themes/Shongshoytheme/f/Shobuj.woff2);
+      font-weight: normal;
+      }
+      @font-face {
+      font-family: Kalpurush;
+      src: url(/wp-content/themes/Shongshoytheme/f/kalpurush.woff2);
+      font-weight: 700;
+      }
+
+      h1,h2,h3,h4,h5,h6
+      {
+      font-family: Kalpurush, Arial, sans-serif;
+      }
+      .main-navigation a
+      {
+      	font-size: 18px;
+      }
+      h1{font-size: 30px;}
+      h2{font-size: 28px;}
+      h3{font-size: 26px;}
+      h4{font-size: 24px;}
+      h5{font-size: 22px;}
+      h6{font-size: 20px;}
+      sup{font-size: 14px;}
+      p,pre,span,sup, ol.footnotes li,.h1 site-title,.main-navigation a, div,li,blockquote p,abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, sub, tt, var, dl, dt, dd, ol, ul, fieldset, form, label, legend, table, caption, tbody, thead, tr, th, td,blockquote p, .wp-block-quote p, .wp-block-quote.is-style-large p, .wp-block-quote.has-text-align-right p {
+      font-family: Kalpurush, Arial, sans-serif;
+      }
+      ol.footnotes li,.gutentoc-toc-wrap ul li a
+      {
+      	font-size: 16px;
+      }
+
+      blockquote,
+      .wp-block-quote, .wp-block-quote.is-style-large, .wp-block-quote.has-text-align-right{
+      	border-left: 1px solid #428bca;
+      	 	 color: #0e0f0e;
+           background: #ccc;
+           }
+      blockquote p:before {
+      	  color: #222;
+      	font-size: 22px;
+      }
+      blockquote a:link
+      {
+      	color: green;
+      }
+      blockquote a:hover {
+        color: red;
+
+      }
+      .footnotes
+      {
+      	font-style: italic;
+      }
+      .widget_featured_slider img {   object-fit: cover;
+          width: 40rem;
+          height: 22rem;
+      }
+      #site-navigation
+      {
+      	background-color: #012015;
+      }
+    </style>
+    <script async src="/cdn-cgi/bm/cv/669835187/api.js"></script>
+  </head>
+  <body
+    class="
+      post-template-default
+      single single-post
+      postid-24522
+      single-format-standard
+      custom-background
+      wp-custom-logo wp-embed-responsive
+      right-sidebar
+      box-layout
+      better-responsive-menu
+    "
+  >
+    <div id="page" class="hfeed site">
+      <a class="skip-link screen-reader-text" href="#main">Skip to content</a>
+      <header id="masthead" class="site-header clearfix">
+        <div id="header-text-nav-container" class="clearfix">
+          <div class="news-bar">
+            <div class="inner-wrap clearfix">
+              <div class="social-links clearfix">
+                <ul>
+                  <li>
+                    <a
+                      href="https://www.facebook.com/shongshoydotcom"
+                      target="_blank"
+                      ><i class="fa fa-facebook"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/iamasifm" target="_blank"
+                      ><i class="fa fa-twitter"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.youtube.com/channel/UCAutFggTjBZJdOnHfGA9nQQ"
+                      target="_blank"
+                      ><i class="fa fa-youtube"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="inner-wrap">
+            <div id="header-text-nav-wrap" class="clearfix">
+              <div id="header-left-section">
+                <div id="header-logo-image">
+                  <a href="/" class="custom-logo-link" rel="home"
+                    ><img
+                      width="320"
+                      height="148"
+                      src="https://i0.wp.com/www.shongshoy.com/wp-content/uploads/2021/02/shongshoy_new_Logo_320.png?fit=320%2C148&amp;ssl=1"
+                      class="custom-logo"
+                      alt="সংশয় &#8211; চিন্তার মুক্তির আন্দোলন"
+                      srcset="
+                        https://i0.wp.com/www.shongshoy.com/wp-content/uploads/2021/02/shongshoy_new_Logo_320.png?w=320&amp;ssl=1            320w,
+                        https://i0.wp.com/www.shongshoy.com/wp-content/uploads/2021/02/shongshoy_new_Logo_320.png?resize=300%2C139&amp;ssl=1 300w
+                      "
+                      sizes="(max-width: 320px) 100vw, 320px"
+                  /></a>
+                </div>
+                <div id="header-text" class="screen-reader-text">
+                  <h3 id="site-title">
+                    <a
+                      href="/"
+                      title="সংশয় &#8211; চিন্তার মুক্তির আন্দোলন"
+                      rel="home"
+                      >সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</a
+                    >
+                  </h3>
+                  <p id="site-description">
+                    জ্ঞান যেখানে সীমাবদ্ধ, যুক্তি যেখানে আড়ষ্ট, মুক্তি সেখানে
+                    অসম্ভব
+                  </p>
+                </div>
+              </div>
+              <div id="header-right-section">
+                <div id="header-right-sidebar" class="clearfix">
+                  <aside id="text-25" class="widget widget_text clearfix">
+                    <div class="textwidget">
+                      <h2 style="font-family: Shobuj Nolua">
+                        জ্ঞান যেখানে সীমাবদ্ধ,<br />
+                        যুক্তি যেখানে আড়ষ্ট,<br />
+                        মুক্তি সেখানে অসম্ভব
+                      </h2>
+                    </div>
+                  </aside>
+                </div>
+              </div>
+            </div>
+          </div>
+          <nav
+            id="site-navigation"
+            class="main-navigation clearfix"
+            role="navigation"
+          >
+            <div class="inner-wrap clearfix">
+              <p class="menu-toggle"></p>
+              <div class="menu-primary-container">
+                <ul id="menu-home" class="menu">
+                  <li
+                    id="menu-item-16686"
+                    class="
+                      menu-item
+                      menu-item-type-custom
+                      menu-item-object-custom
+                      menu-item-home
+                      menu-item-16686
+                    "
+                  >
+                    <a href="/">মূলপাতা</a>
+                  </li>
+                  <li
+                    id="menu-item-2921"
+                    class="
+                      menu-item
+                      menu-item-type-post_type
+                      menu-item-object-page menu-item-2921
+                    "
+                  >
+                    <a href="/history">ইতিহাস</a>
+                  </li>
+                  <li
+                    id="menu-item-8501"
+                    class="
+                      menu-item
+                      menu-item-type-custom
+                      menu-item-object-custom
+                      menu-item-has-children
+                      menu-item-8501
+                    "
+                  >
+                    <a href="#">দর্শন</a>
+                    <ul class="sub-menu">
+                      <li
+                        id="menu-item-8480"
+                        class="
+                          menu-item
+                          menu-item-type-post_type
+                          menu-item-object-page menu-item-8480
+                        "
+                      >
+                        <a href="/philosophy/philosophical-questions"
+                          >দর্শনের মৌলিক প্রশ্নাবলী</a
+                        >
+                      </li>
+                      <li
+                        id="menu-item-2926"
+                        class="
+                          menu-item
+                          menu-item-type-post_type
+                          menu-item-object-page menu-item-2926
+                        "
+                      >
+                        <a href="/philosophy/philosophy"
+                          >নাস্তিকতার দার্শনিক অবস্থানসমূহ</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li
+                    id="menu-item-8506"
+                    class="
+                      menu-item
+                      menu-item-type-custom
+                      menu-item-object-custom
+                      menu-item-has-children
+                      menu-item-8506
+                    "
+                  >
+                    <a href="#">বিজ্ঞান</a>
+                    <ul class="sub-menu">
+                      <li
+                        id="menu-item-8463"
+                        class="
+                          menu-item
+                          menu-item-type-post_type
+                          menu-item-object-page menu-item-8463
+                        "
+                      >
+                        <a href="/science/universe">মহাবিশ্বের উদ্ভব</a>
+                      </li>
+                      <li
+                        id="menu-item-8462"
+                        class="
+                          menu-item
+                          menu-item-type-post_type
+                          menu-item-object-page menu-item-8462
+                        "
+                      >
+                        <a href="/science/earth">পৃথিবীর উদ্ভব</a>
+                      </li>
+                      <li
+                        id="menu-item-8483"
+                        class="
+                          menu-item
+                          menu-item-type-post_type
+                          menu-item-object-page menu-item-8483
+                        "
+                      >
+                        <a href="/science/abiogenesis">প্রাণের উদ্ভব ও বিকাশ</a>
+                      </li>
+                      <li
+                        id="menu-item-8482"
+                        class="
+                          menu-item
+                          menu-item-type-post_type
+                          menu-item-object-page menu-item-8482
+                        "
+                      >
+                        <a href="/science/evolution">বিবর্তন তত্ত্ব</a>
+                      </li>
+                      <li
+                        id="menu-item-8481"
+                        class="
+                          menu-item
+                          menu-item-type-post_type
+                          menu-item-object-page menu-item-8481
+                        "
+                      >
+                        <a href="/science/human-evolution">মানুষের বিবর্তন</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li
+                    id="menu-item-8507"
+                    class="
+                      menu-item
+                      menu-item-type-custom
+                      menu-item-object-custom
+                      menu-item-has-children
+                      menu-item-8507
+                    "
+                  >
+                    <a href="#">তথ্যভাণ্ডার</a>
+                    <ul class="sub-menu">
+                      <li
+                        id="menu-item-17047"
+                        class="
+                          menu-item
+                          menu-item-type-post_type
+                          menu-item-object-page menu-item-17047
+                        "
+                      >
+                        <a href="/references/archive">প্রবন্ধ আর্কাইভ</a>
+                      </li>
+                      <li
+                        id="menu-item-19760"
+                        class="
+                          menu-item
+                          menu-item-type-post_type
+                          menu-item-object-page menu-item-19760
+                        "
+                      >
+                        <a href="/references/islam-archive">ইসলাম আর্কাইভ</a>
+                      </li>
+                      <li
+                        id="menu-item-7532"
+                        class="
+                          menu-item
+                          menu-item-type-post_type
+                          menu-item-object-page menu-item-7532
+                        "
+                      >
+                        <a href="/references/islam">তথ্য সমূহ – ইসলাম ধর্ম</a>
+                      </li>
+                      <li
+                        id="menu-item-7529"
+                        class="
+                          menu-item
+                          menu-item-type-post_type
+                          menu-item-object-page menu-item-7529
+                        "
+                      >
+                        <a href="/references/hinduism"
+                          >তথ্য সমূহ – হিন্দু ধর্ম</a
+                        >
+                      </li>
+                      <li
+                        id="menu-item-7538"
+                        class="
+                          menu-item
+                          menu-item-type-post_type
+                          menu-item-object-page menu-item-7538
+                        "
+                      >
+                        <a href="/references/christianity"
+                          >তথ্য সমূহ – খ্রিস্টধর্ম</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li
+                    id="menu-item-2924"
+                    class="
+                      menu-item
+                      menu-item-type-post_type
+                      menu-item-object-page menu-item-2924
+                    "
+                  >
+                    <a href="/library">গ্রন্থাগার</a>
+                  </li>
+                  <li
+                    id="menu-item-6934"
+                    class="
+                      menu-item
+                      menu-item-type-post_type
+                      menu-item-object-page
+                      menu-item-privacy-policy
+                      menu-item-6934
+                    "
+                  >
+                    <a href="/about/terms-service-privacy-policy">নিয়মাবলী</a>
+                  </li>
+                  <li
+                    id="menu-item-21047"
+                    class="
+                      menu-item
+                      menu-item-type-post_type
+                      menu-item-object-page menu-item-21047
+                    "
+                  >
+                    <a href="/rules">নীতিমালা</a>
+                  </li>
+                  <li
+                    id="menu-item-2925"
+                    class="
+                      menu-item
+                      menu-item-type-post_type
+                      menu-item-object-page menu-item-2925
+                    "
+                  >
+                    <a href="/faq">উত্তরসমূহ</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div id="main" class="clearfix">
+        <div class="inner-wrap clearfix">
+          <div id="primary">
+            <div id="content" class="clearfix">
+              <article
+                id="post-24522"
+                class="
+                  post-24522 post
+                  type-post
+                  status-publish
+                  format-standard
+                  has-post-thumbnail
+                  hentry
+                  category-science
+                  tag-henry-gee tag-p-value tag-statistics
+                "
+              >
+                <div class="featured-image">
+                  <img
+                    width="704"
+                    height="357"
+                    src="https://i0.wp.com/www.shongshoy.com/wp-content/uploads/2021/02/Normal-Distribution.png?resize=704%2C357&amp;ssl=1"
+                    class="
+                      attachment-colormag-featured-image
+                      size-colormag-featured-image
+                      wp-post-image
+                    "
+                    alt="P-Value"
+                    loading="lazy"
+                    srcset="
+                      https://i0.wp.com/www.shongshoy.com/wp-content/uploads/2021/02/Normal-Distribution.png?w=704&amp;ssl=1            704w,
+                      https://i0.wp.com/www.shongshoy.com/wp-content/uploads/2021/02/Normal-Distribution.png?resize=300%2C152&amp;ssl=1 300w
+                    "
+                    sizes="(max-width: 704px) 100vw, 704px"
+                    title="P-value কী এবং বৈজ্ঞানিক পরীক্ষা নিরীক্ষায় এই মানের গুরুত্ব"
+                  />
+                </div>
+                <div class="article-content clearfix">
+                  <div class="above-entry-meta">
+                    <span class="cat-links"
+                      ><a
+                        href="/archives/category/science"
+                        style="background: #4885ed"
+                        rel="category tag"
+                        >বিজ্ঞান</a
+                      >&nbsp;</span
+                    >
+                  </div>
+                  <header class="entry-header">
+                    <h1 class="entry-title">
+                      P-value কী এবং বৈজ্ঞানিক পরীক্ষা নিরীক্ষায় এই মানের
+                      গুরুত্ব
+                    </h1>
+                  </header>
+                  <div class="below-entry-meta">
+                    <span class="posted-on"
+                      ><a href="/archives/24522" title="9:49 AM" rel="bookmark"
+                        ><i class="fa fa-calendar-o"></i>
+                        <time
+                          class="entry-date published"
+                          datetime="2021-02-17T09:49:54+00:00"
+                          >February 17, 2021</time
+                        ><time
+                          class="updated"
+                          datetime="2021-05-17T10:37:48+01:00"
+                          >May 17, 2021</time
+                        ></a
+                      ></span
+                    >
+                    <span class="byline">
+                      <span class="author vcard">
+                        <i class="fa fa-user"></i>
+                        <a
+                          class="url fn n"
+                          href="/author/mondal-amit"
+                          title="Amit"
+                        >
+                          Amit
+                        </a>
+                      </span>
+                    </span>
+                    <span class="comments">
+                      <a href="/archives/24522#respond"
+                        ><i class="fa fa-comment"></i> 0 Comments</a
+                      >
+                    </span>
+                    <span class="tag-links"
+                      ><i class="fa fa-tags"></i
+                      ><a href="/archives/tag/henry-gee" rel="tag">Henry Gee</a
+                      >, <a href="/archives/tag/p-value" rel="tag">P-Value</a>,
+                      <a href="/archives/tag/statistics" rel="tag"
+                        >Statistics</a
+                      ></span
+                    >
+                  </div>
+                  <div class="entry-content clearfix">
+                    <div class="pf-content">
+                      <div
+                        class="
+                          printfriendly
+                          pf-button pf-button-content pf-alignright
+                        "
+                      >
+                        <a
+                          href="#"
+                          rel="nofollow"
+                          onclick="window.print();if(typeof(_gaq) != 'undefined') { _gaq.push(['_trackEvent','PRINTFRIENDLY', 'print', 'NULL']);
+          }else if(typeof(ga) != 'undefined') {  ga('send', 'event','PRINTFRIENDLY', 'print', 'NULL'); } return false;"
+                          title="Printer Friendly, PDF & Email"
+                          ><img
+                            style="
+                              border: none;
+                              -webkit-box-shadow: none;
+                              -moz-box-shadow: none;
+                              box-shadow: none;
+                              padding: 0;
+                              margin: 0;
+                            "
+                            src="https://i1.wp.com/cdn.printfriendly.com/buttons/printfriendly-pdf-email-button-md.png?w=800&#038;ssl=1"
+                            alt="Print Friendly, PDF &amp; Email"
+                            title="P-value কী এবং বৈজ্ঞানিক পরীক্ষা নিরীক্ষায় এই মানের গুরুত্ব"
+                            data-recalc-dims="1"
+                        /></a>
+                      </div>
+                      <div id="toc_container" class="no_bullets">
+                        <p class="toc_title">সূচিপত্র</p>
+                        <ul class="toc_list">
+                          <li>
+                            <a href="#i"
+                              ><span class="toc_number toc_depth_1">1</span>
+                              মুখবন্ধ</a
+                            >
+                          </li>
+                          <li>
+                            <a href="#P-value"
+                              ><span class="toc_number toc_depth_1">2</span>
+                              P-value কেন গুরুত্বপূর্ণ?</a
+                            >
+                          </li>
+                          <li>
+                            <a href="#i-2"
+                              ><span class="toc_number toc_depth_1">3</span> এই
+                              সীমা নির্ধারণ করবো কিভাবে?</a
+                            >
+                          </li>
+                          <li>
+                            <a href="#P-Value"
+                              ><span class="toc_number toc_depth_1">4</span>
+                              P-Value নির্ণয় করা হয় কিভাবে?</a
+                            >
+                          </li>
+                          <li>
+                            <a href="#CERN-_5_Sigma_Value"
+                              ><span class="toc_number toc_depth_1">5</span>
+                              CERN-এর 5 Sigma Value-র গুরুত্ব</a
+                            >
+                          </li>
+                          <li>
+                            <a href="#i-3"
+                              ><span class="toc_number toc_depth_1">6</span>
+                              উপসংহার</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                      <h2 id="মুখবন্ধ"><span id="i">মুখবন্ধ</span></h2>
+                      <p>
+                        <a
+                          href="https://en.wikipedia.org/wiki/Henry_Gee"
+                          class="rank-math-link"
+                          rel="nofollow noopener"
+                          target="_blank"
+                          >Henry Gee</a
+                        >-এর নাম অনেকেই শুনে থাকবেন। তিনি একজন Blogger ও লেখক,
+                        কিন্তু তার সবথেকে বড় পরিচয় তিনি বিখ্যাত science journal
+                        &#8216;Nature&#8217; -এর একজন বিশিষ্ট সম্পাদক। তিনি একটি
+                        লেখা লেখেন The Guardian পত্রিকায় ১৯শে সেপ্টেম্বর, ২০১৩
+                        সালে। লেখাটির নাম &#8220;Science: the religion that must
+                        not be questioned&#8221;<sup
+                          >[<a
+                            href="#footnote_0_24522"
+                            id="identifier_0_24522"
+                            class="footnote-link footnote-identifier-link"
+                            title="https://www.theguardian.com/science/occams-corner/2013/sep/19/science-religion-not-be-questioned"
+                            >1</a
+                          >]</sup
+                        >, অর্থাৎ &#8220;বিজ্ঞান: যে ধর্মকে প্রশ্ন করা চলে
+                        না&#8221;। এই লেখাটির এক জায়গায় উনি বলছেন,
+                      </p>
+                      <blockquote class="wp-block-quote">
+                        <p>
+                          If this all sounds rather rarefied, consider science
+                          at its most practical. As discussed in Dr
+                          McLain&#8217;s article and the comments subjacent,
+                          scientific experiments don&#8217;t end with a holy
+                          grail so much as an estimate of probability. For
+                          example,
+                          <strong
+                            >one might be able to accord a value to one&#8217;s
+                            conclusion not of &#8220;yes&#8221; or
+                            &#8220;no&#8221; but &#8220;P&lt;0.05&#8221;, which
+                            means that the result has a less than one in 20
+                            chance of being a fluke.</strong
+                          >
+                          That doesn&#8217;t mean it&#8217;s
+                          &#8220;right&#8221;.
+                        </p>
+                        <p>
+                          One thing that never gets emphasized enough in
+                          science, or in schools, or anywhere else, is that no
+                          matter how fancy-schmancy your statistical technique,
+                          the output is always a probability level (a P-value),
+                          the &#8220;significance&#8221; of which is left for
+                          you to judge – based on nothing more concrete or
+                          substantive than a feeling, based on the imponderables
+                          of personal or shared experience. Statistics, and
+                          therefore science, can only advise on probability –
+                          they cannot determine The Truth. And Truth, with a
+                          capital T, is forever just beyond one&#8217;s grasp.
+                          <sup
+                            >[<a
+                              href="#footnote_1_24522"
+                              id="identifier_1_24522"
+                              class="footnote-link footnote-identifier-link"
+                              title="Henry Gee, (Thu 19 Sep 2013), Science: the religion that must not be questioned, Retrieved from https://www.theguardian.com/science/occams-corner/2013/sep/19/science-religion-not-be-questioned"
+                              >2</a
+                            >]</sup
+                          >
+                        </p>
+                      </blockquote>
+                      <p>
+                        কথাটা আংশিক সত্যি। পরিসংখ্যান বা statistics একটি
+                        গুরুত্বপূর্ণ বিষয়। পরিসংখ্যান বৈজ্ঞানিক পদ্ধতির সাথে
+                        অঙ্গাঙ্গিক ভাবে জড়িত। কিন্তু তবুও প্রবাবিলিটি এবং
+                        পরিসংখ্যান ঠিক কি ভাবে কাজ করে এবং এটি ঠিক কিভাবে
+                        বৈজ্ঞানিক পদ্ধতিতে ব্যবহৃত হয় তা নিয়ে সাধারণ মানুষের
+                        কাছে তো বটেই অনেক সময়ে বৈজ্ঞানিকদের মধ্যেও সংশয় দেখা
+                        যায়। এটাও সত্যি যে, বিজ্ঞানের একমাত্র কাজ চরম সত্য খুঁজে
+                        বের করা নয়। কিন্তু এখানে P-value সম্পর্কিত মন্তব্যটি করা
+                        হয়েছে তা নিতান্ত বিভ্রান্তকর। এটি একটি
+                        frequentist&#8217;s approach বললেও অত্যুক্তি হবে না।
+                        পরিসংখ্যান এভাবে কাজ করে না। Henry Gee এর এই বক্তব্য জন
+                        সাধারনের মধ্যে বিজ্ঞান ও পরিসংখ্যান বিষয়ে এক ভ্রান্ত
+                        ধারনার সুত্রপাত করে। আরও একটি বিভ্রান্তিকর বিষয় হোল,
+                        <strong
+                          >&#8220;<a href="/archives/835" class="rank-math-link"
+                            >Science and religion</a
+                          >&#8220;</strong
+                        >
+                        এই ভান্ত কল্পকাহিনীর প্রচার এবং তার জন্য বিজ্ঞানীদের
+                        দোষারোপ করা। অধিকাংশ বিজ্ঞানীই, তারা কি কাজ করছেন এবং
+                        তার সীমাবদ্ধতা সম্পর্কে পুরোপুরি সচেতন এবং অবহিত। এই
+                        কারণে বিভিন্ন research article-এ একটি
+                        &#8216;limitation&#8217; নামের একটি section প্রায়শই চোখে
+                        পড়বে। অনেক ক্ষেত্রেই বিভিন্ন মিডিয়া সাধারণ মানুষের কাছে
+                        জনপ্রিয়তা অর্জনের জন্য, সবকিছু সাদা-কালো ভাষায় তুলে
+                        ধরতে চায় বা অতি সরলীকরণ করে ফেলে।
+                      </p>
+                      <p>
+                        ১লা অগাস্ট, ২০১২ তে বিবিসি তে একটি খবর প্রকাশিত হয়,
+                        &#8220;Higgs boson results from LHC &#8216;get even
+                        stronger'&#8221;
+                        <sup
+                          >[<a
+                            href="#footnote_2_24522"
+                            id="identifier_2_24522"
+                            class="footnote-link footnote-identifier-link"
+                            title="Higgs boson results from LHC &lsquo;get even stronger&rsquo;"
+                            >3</a
+                          >]</sup
+                        >
+                        শিরনামে। সেখানে বলা হচ্ছে,
+                      </p>
+                      <blockquote class="wp-block-quote">
+                        <p>
+                          Now one Higgs-hunting team at the Large Hadron
+                          Collider report a
+                          <strong>&#8220;5.9 sigma&#8221;</strong> levels of
+                          certainty it exists.
+                        </p>
+                      </blockquote>
+                      <p>
+                        এই &#8216;sigma level&#8217; বলতে এক P-Value কে বোঝানো
+                        হয়েছে। &#8216;<strong>Five sigma</strong
+                        >&#8216;&nbsp;বলতে p-value বা probability-কে বোঝায় যার
+                        মান 3&#215;10<sup>-7</sup> বা প্রায় 3.5 million ভাগে এক
+                        ভাগ। এই P-Value যদি কোন সত্যকে উদ্ঘাটন নাই করে, তাহলে
+                        Higgs Boson সনাক্তকরন নিয়ে এতো মাতামাতি কেন? কেনই বা আরও
+                        বেশী Sigma Value সমন্বিত ফলাফল অর্জন করতে চাওয়ার
+                        আকাঙ্ক্ষা? তাহলে এখন দেখি এই P-Value বলতে আমরা সত্যিই কি
+                        বুঝি।
+                      </p>
+                      <h2 id="p-value_কেন_গুরুত্বপূর্ণ">
+                        <span id="P-value">P-value কেন গুরুত্বপূর্ণ?</span>
+                      </h2>
+                      <p>
+                        ধরা যাক একটি নতুন ওষুধ আবিষ্কার হয়েছে। ওষুধের নাম
+                        <strong>&#8216;Drug A&#8217;</strong>, আর এই ওষুধটি যে
+                        রোগের জন্য ব্যবহৃত হয়, তার জন্য আগে থেকেই আরেকটি ওষুধ
+                        ছিল তার নাম <strong>&#8216;Drug B&#8217;</strong>। আমাকে
+                        দেখতে হবে এই নতুন আবিষ্কৃত ঔষধটি পূর্বের ওষুধটির চেয়ে
+                        বেশি কার্যকরী কিনা। ধরা যাক, Drug A পরীক্ষা নিরীক্ষার
+                        বাকি সমস্ত ধাপ পার করে এখন মানুষের উপর প্রয়োগ করার
+                        ছাড়পত্র পেয়ে গেছে।
+                      </p>
+                      <p>
+                        এই পরীক্ষাটি করার জন্য, আমি একজন রোগীকে &#8216;Drug
+                        A&#8217; দেওয়া হোল, আর একজন রোগীকে দেওয়া হোল &#8216;Drug
+                        B&#8217;। এখন দেখা গেল প্রথম ব্যক্তি সুস্থ হয়েছেন
+                        কিন্তু দ্বিতীয় ব্যক্তি সুস্থ হননি। এই পরীক্ষা থেকে কি
+                        সিদ্ধান্তে আসা যায় যে নব্য আবিষ্কৃত ওষুধ টি পুরনো
+                        ওষুধের থেকে ভালো? উত্তরটা হলো, না। শুধুমাত্র একটি বা
+                        দুটি ব্যক্তির ক্ষেত্রে এই পরীক্ষা করে আমরা সঠিক
+                        সিদ্ধান্তে উপনীত হতে পারি না। পুরনো ওষুধটি বহু কারণে
+                        ব্যর্থ হতে পারে। হতে পারে দ্বিতীয় ব্যক্তি এমন কোন ওষুধ
+                        খাচ্ছিলেন, যে ওষুধের সাথে &#8216;Drug B&#8217;-এর কোন
+                        রকমের drug interaction হয়েছিল। হতে পারে, এই দ্বিতীয়
+                        ব্যাক্তি, যার ক্ষেত্রে &#8216;Drug B&#8217; ব্যর্থ
+                        হয়েছে, তার কোন allergy আছে। অথবা তার দেহে এমন কোন উৎসেচক
+                        আছে যা &#8216;Drug B&#8217;-কে দ্রুত পরিপাক করে ফেলে।
+                        আবার এও হতে পারে, প্রথম ব্যক্তি যিনি Drug A নিয়েছিলেন
+                        তার ক্ষেত্রে ওষুধটি কাজ করেছিল কেবলমাত্র placebo
+                        effect-এর জন্য। এই ধরনের পরীক্ষা ক্ষেত্রে এরকম ঘটনা ঘটতে
+                        পারে। তার মানে এই ধরনের পরীক্ষা একাধিক ব্যক্তির উপরে
+                        প্রয়োগ করে দেখা উচিত।
+                      </p>
+                      <p>
+                        এখন ধরা যাক দুইজন ব্যক্তি কে প্রথম ওষুধ (Drug A) এবং
+                        বাকি দুজন ব্যক্তিকে দ্বিতীয় ওষুধ (Drug B) প্রয়োগ করা
+                        হলো। দেখা গেল প্রথম গ্রুপে দুইজন ব্যক্তি ভালো হয়ে
+                        গেছেন, কিন্তু দ্বিতীয় গ্রুপে একজন ভালো হয়েছে কিন্তু
+                        আরেকজন ভালো হয়নি। এখন প্রশ্ন হল, এই দ্বিতীয় পরীক্ষা
+                        থেকে কি এই সিদ্ধান্তে আসা যায় যে প্রথম ওষুধটি দ্বিতীয়
+                        ওষুধের থেকে বেশি কার্যকরী? এক্ষেত্রেও উত্তরটি না। তার
+                        কারণ এমন হয়ে থাকতে পারে যে প্রথম গ্রুপের দুটি মানুষের
+                        ক্ষেত্রে প্রথম ওষুধটি কাজ করেছে শুধুমাত্র একটি Placebo
+                        effect-এর জন্য। হতে পারে দ্বিতীয় গ্রুপের&nbsp;যে
+                        ব্যক্তি সুস্থ হয়েছে তার ক্ষেত্রেও placebo effect কাজ
+                        করেছে। হতে পারে দ্বিতীয় ব্যক্তি যিনি সুস্থ হননি তার
+                        ক্ষেত্রে কোনো রকম drug interaction বা allergy ছিল। তাই
+                        সঠিক সিদ্ধান্তে উপনিত হতে হলে আরো অনেক বেশী মানুষের উপরে
+                        পরীক্ষা করে দেখা দরকার।
+                      </p>
+                      <p>
+                        ধরা যাক পরবর্তী ধাপে অনেক মানুষের উপরে এই পরীক্ষা করা
+                        হোল এবং তার ফলাফল নিম্নরূপ:
+                      </p>
+                      <figure class="wp-block-table is-style-regular">
+                        <table>
+                          <thead>
+                            <tr>
+                              <th></th>
+                              <th>Drug A</th>
+                              <th>Drug B</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>সুস্থ হয়ে উঠেছেন</td>
+                              <td>10543 (99.2%)</td>
+                              <td>25</td>
+                            </tr>
+                            <tr>
+                              <td>সুস্থ হয়ে ওঠেনি</td>
+                              <td>85</td>
+                              <td>15055(99.83%)</td>
+                            </tr>
+                            <tr>
+                              <td>সামগ্রিক</td>
+                              <td>10628</td>
+                              <td>15080</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <figcaption>
+                          Drug A এবং Drug B প্রয়োগের ফলাফল
+                        </figcaption>
+                      </figure>
+                      <p>
+                        উপরোক্ত পরীক্ষা দেখে খুব সহজেই এই সিদ্ধান্তে আসা যায় যে
+                        Drug A, Drug B-এর থেকে বেশি কার্যকর। যাদের ক্ষেত্রে Drug
+                        A প্রয়োগ করা হয়েছে তাদের শতকরা 99.2 ভাগ সুস্থ হয়ে
+                        উঠেছেন, যেখানে দ্বিতীয় ওষুধটির সফলতার হার খুবই কম। এই
+                        ক্ষেত্রে placebo এবং allergy-র সম্ভাবনা থাকলেও, এত বেশী
+                        সংখ্যক মানুষের ক্ষেত্রে প্রয়োগ করা হয়েছে যে, এই পরীক্ষার
+                        ফলাফলের উপর সেই বিভিন্ন কারণগুলির প্রভাব থাকার সম্ভাবনা
+                        কম বলেই ধরে নেওয়া যায়।
+                      </p>
+                      <p>
+                        এবার ধরা যাক, সময় এবং অর্থের অপ্রাচুর্যের কারণে এত বেশী
+                        সংখ্যক মানুষের উপরে পরীক্ষাটি করা গেল না। খুব সীমিত কিছু
+                        সংখ্যক মানুষের উপরে এই পরীক্ষা করে যে ফলাফল পাওয়া গেল,
+                        তা নিম্নরূপ:
+                      </p>
+                      <figure class="wp-block-table is-style-regular">
+                        <table>
+                          <thead>
+                            <tr>
+                              <th></th>
+                              <th>Drug A</th>
+                              <th>Drug B</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>সুস্থ হয়ে উঠেছেন</td>
+                              <td>75 (37.5%)</td>
+                              <td>45 (22.5%)</td>
+                            </tr>
+                            <tr>
+                              <td>সুস্থ হয়ে ওঠেনি</td>
+                              <td>125</td>
+                              <td>155</td>
+                            </tr>
+                            <tr>
+                              <td>সামগ্রিক</td>
+                              <td>200</td>
+                              <td>200</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <figcaption>
+                          সীমিত সংখ্যক রোগীর উপর Drug A এবং Drug B প্রয়োগের
+                          ফলাফল
+                        </figcaption>
+                      </figure>
+                      <p>
+                        যখন এই পরীক্ষাটি সীমিত সংখ্যক কিছু মানুষের উপরে প্রয়োগ
+                        করা হলো তখন দেখা গেল প্রথম ওষুধের ক্ষেত্রে সুস্থ হওয়ার
+                        হার 37.5%, যেখানে দ্বিতীয় ওষুধের ক্ষেত্রে সুস্থ হওয়ার
+                        হার 22.5%। এই বিষয়ে কোন সন্দেহ নেই যে দ্বিতীয়
+                        পরীক্ষাটিতেও প্রথম ওষুধ (Drug A) প্রয়োগ করার ফলে,
+                        দ্বিতীয় ওষুধের (Drug B) তুলনায় বেশি মানুষ সুস্থ
+                        হয়েছেন। কিন্তু এই পরীক্ষার ফলাফল এমন নয়, যেখানে খুব
+                        আত্মবিশ্বাস নিয়ে একথা বলা যায় যে দ্বিতীয় ওষুধের
+                        তুলনায় প্রথম ওষুধটি নিঃসন্দেহে বেশি কার্যকরী। তার প্রথম
+                        কারণ, প্রথম পরীক্ষাটিতে সুস্থ হয়ে উঠেছেন এবং সুস্থ হয়ে
+                        ওঠেন নি এমন রোগীর সংখ্যার মধ্যে একটি বিশাল ফারাক ছিল,
+                        কিন্তু দ্বিতীয় পরীক্ষায় এই তফাত খুব বেশী নয়।
+                        দ্বিতীয়তঃ দ্বিতীয় পরীক্ষাটিতে রোগীর সংখ্যা খুব বেশি
+                        নয়। যেহেতু আমরা জানি, যে কোনো পরীক্ষা-নিরীক্ষাতেই ভুল
+                        ভ্রান্তি হবার সম্ভাবনা থাকে এবং অসংখ্য অজানা প্রভাবক
+                        একটি পরীক্ষা কে প্রভাবিত করতে পারে, তাই জন্যে এটা
+                        নির্ণয় করা জরুরি যে একটি পরীক্ষার ফলাফল থেকে কতটা
+                        আত্মবিশ্বাসের সাথে আমরা সিধান্তে উপনীত হতে পারি। আর
+                        এখানেই P-Value-এর গুরুত্ব।
+                      </p>
+                      <p>
+                        আরও একটি উদাহরন দেখা যাক। ধরা যাক একটি স্কুলে 100 জন
+                        ছাত্র পড়ে। কোন এক পরীক্ষায় তাদের গড় নম্বর 85, কিন্তু
+                        তাদের মধ্যে 30 জনকে randomly select করে দেখা গেল, এই
+                        randomly selected group-এর গড় নম্বর 95। এখান থেকে আমরা
+                        যে সিদ্ধান্তে উপনীত হতে পারি:
+                      </p>
+                      <ol>
+                        <li>এই ত্রিশটি ছাত্র আলাদা, অথবা</li>
+                        <li>
+                          অথবা এদের মধ্যে কোন পার্থক্য নেই যে পার্থক্য আমরা
+                          দেখছি তা কোন random chance-এর জন্য, যেহেতু এমন অনেক
+                          ছাত্র আছে যাদের নাম্বার 85 থেকে বেশি, আবার এমন ছাত্র
+                          আছে যাদের নম্বর 85 থেকে কম।
+                        </li>
+                      </ol>
+                      <p>
+                        এখন আমরা কিভাবে জানবো কোন সিদ্ধান্তটি সঠিক। তার জন্য
+                        দুটি উপায় হতে পারে। হয় আরো বেশি সংখ্যক ছাত্র নিয়ে
+                        তাদের উপরে পরীক্ষা করা, অথবা আরেকটি নতুন পরীক্ষা করা
+                        যেখানে ক্ষেত্রে অন্য ছাত্র চয়ন করা, অথবা &#8216;Random
+                        chance probability&#8217; নির্ণয় করা। অনেক সময় এমন হতে
+                        পারে যে আরও বেশিসংখ্যক ছাত্র নিয়ে এই পরীক্ষা করা সম্ভব
+                        নয়, অথবা শুধুমাত্র একবারই এই পরীক্ষাটি করা যাচ্ছে, কারণ
+                        এই পরীক্ষা করার পরে স্কুল ছুটি হয়ে গেছে। তখন আর ছাত্রদের
+                        পাওয়া যাবে না। তাহলে আমাদের প্রথম পরীক্ষাটির উপরই নির্ভর
+                        করতে হবে। তাহলে আমাদের কাছে তৃতীয় পথটিই খোলা থাকছে।
+                        যেহেতু এই পরীক্ষা করার সময় কোন নির্দিষ্ট নিয়ম মেনে
+                        ছাত্রদের চয়ন করা হয়নি, তাই প্রতিটা ছাত্রেরই সমান
+                        সম্ভাবনা ছিল এই পরীক্ষার অন্তর্ভুক্ত হওয়া, অর্থাৎ
+                        ব্যাপারটি ছিল। এমন হয়ে থাকতে পারে, কোনো কারণবশত
+                        শুধুমাত্র সেই ছাত্র গুলিই এই পরীক্ষার অন্তর্ভুক্ত রয়েছে
+                        যাদের গড় নম্বর বেশি। আমাদেরকে সেই সম্ভাবনায় এখানে
+                        নির্ণয় করতে হবে।
+                        <strong>আর সেখানেই P-Value এর গুরুত্ব।</strong>
+                      </p>
+                      <p>
+                        অর্থাৎ মহাবিশ্বের সমস্ত তথ্য সংগ্রহ করে যেহেতু একটি
+                        পরীক্ষা করা সম্ভব নয়, তাই প্রায়শয়ই একটি সীমিত তথ্যের উপর
+                        আমাদের নির্ভর করতে হয়। যেমন, একটি টীকা আবিষ্কারের পর
+                        প্রতিটি মানুষের উপর প্রয়োগ করে তার ফলাফল নির্ণয় করা
+                        সম্ভব নয়। P-Value একটি নাম্বার যার মান ০ থেকে ১ পর্যন্ত
+                        হয়ে থাকে। আর এই মানটি নির্দেশ করে কি পরিমান
+                        আত্মবিশ্বাসের সাথে একটি পরীক্ষার ফলাফল আমরা গ্রহন করতে
+                        পারি। তার মানে, Drug A এবং Drug B নিয়ে আমরা যে পরীক্ষা
+                        করেছি, সেখানে এই নাম্বার আমাদের বলবে আমরা কতো
+                        আত্মবিশ্বাস নিয়ে আমরা এই কথা বলতে পারি যে এই দুটি ওষুধ
+                        আলাদা অথবা কোনটা বেশী কার্যকর। একদম প্রথমের পরীক্ষাটিতে
+                        যেখানে রোগীর সংখ্যা অনেক বেশী ছিল, সেখানে P-Value কম, আর
+                        দ্বিতীয় পরীক্ষাটিতে P-Value-র মান বেশী। অর্থাৎ P-Value
+                        এর মান ০ এর যত কাছাকাছি হবে, তত বেশী আত্মবিশ্বাসের সাথে
+                        আমরা বলতে পারবো যে &#8216;Drug-A&#8217; তত বেশী
+                        কার্যকরী।
+                      </p>
+                      <p>
+                        যেকোনো পরীক্ষার শুরুতেই সেই পরীক্ষার গুরুত্ব অনুযায়ী
+                        আমরা একটি threshold বা সীমা নির্ধারণ করে নিতে পারি,
+                        P-Value সেই সীমার নীচে থাকলে আমরা আত্মবিশ্বাসের সাথে
+                        একটি সিধান্তে উপনীত হতে পারি। প্রয়োজনে সেই পূর্ব
+                        নির্ধারিত সীমা কমিয়ে আনতে পারি, যাতে পরীক্ষালব্ধ ফলাফলের
+                        উপর আরও বেশী আত্মবিশ্বাস স্থাপন করা যায়।
+                      </p>
+                      <h2 id="এই_সীমা_নির্ধারণ_করবো_কিভাবে">
+                        <span id="i-2">এই সীমা নির্ধারণ করবো কিভাবে?</span>
+                      </h2>
+                      <p>
+                        এখন প্রশ্ন হল একটি পরীক্ষায় আমরা এই সর্বোচ্চ সীমা
+                        নির্ধারণ করবো কিভাবে? প্রথম উদাহরণটি ধরা যাক। এই সীমা কত
+                        হলে আমরা খুব আত্মবিশ্বাসের সাথে এই কথা বলতে পারি যে
+                        প্রথম ওষুধ, দ্বিতীয় ওষুধের থেকে বেশি কার্যকর? অর্থাৎ
+                        P-Value কত হলে আমাদের এই পরীক্ষার ফলাফল যথেষ্ট
+                        আত্মবিশ্বাস প্রদান করবে? সাধারণত আমরা এই সর্বোচ্চ সীমা
+                        নির্ধারণ করি 0.05। এর অর্থ প্রথম এবং দ্বিতীয় ওষুধের
+                        মধ্যে সত্যিই যদি কোনো পার্থক্য না থাকে, এবং আমরা এই
+                        পরীক্ষাটি যদি বহুবার করি, হলে শতকরা 5 ভাগ ক্ষেত্রে ভুল
+                        সিদ্ধান্তে উপনীত হতে পারি। এর অর্থ এই যে, Drug A ও Drug
+                        B -এর মধ্যে কোন পার্থক্য না থাকা সত্ত্বেও আমরা শতকরা ৫
+                        ভাগ ক্ষেত্রে এই ভুল সিধান্তে উপনীত হব যে এদের মধ্যে
+                        পার্থক্য আছে। আরও একটু বিস্তারিত ভাবে জানা যাক।
+                      </p>
+                      <p>
+                        ধরা যাক এই নতুন আবিষ্কৃত ওষুধটি দুটি ভিন্ন গ্রুপের
+                        রোগীদের মধ্যে প্রয়োগ করা হল। এখন যেহেতু একই ওষুধ এই দুই
+                        গ্রুপের মধ্যে প্রয়োগ করা হয়েছে, তাই এই দু&#8217;টি
+                        গ্রুপের মধ্যে যে কোনো পার্থক্য পরিলক্ষিত হলে, ধরে নেয়া
+                        যেতে পারে কোন allergy, অথবা কোন placebo effect, অথবা কোন
+                        drug interaction, অথবা কোন metabolic পার্থক্য অথবা কোন
+                        অজানা কারণ এই বৈষম্যের জন্য দায়ী। নীচের বিবরণীটি লক্ষ্য
+                        করুন,
+                      </p>
+                      <figure
+                        class="
+                          wp-block-image
+                          size-large
+                          is-resized is-style-default
+                        "
+                      >
+                        <img
+                          loading="lazy"
+                          src="https://i2.wp.com/www.shongshoy.com/wp-content/uploads/2021/02/image.png?resize=800%2C220&#038;ssl=1"
+                          alt="P-Value"
+                          class="wp-image-24564"
+                          width="800"
+                          height="220"
+                          srcset="
+                            https://i2.wp.com/www.shongshoy.com/wp-content/uploads/2021/02/image.png?w=624&amp;ssl=1           624w,
+                            https://i2.wp.com/www.shongshoy.com/wp-content/uploads/2021/02/image.png?resize=300%2C83&amp;ssl=1 300w
+                          "
+                          sizes="(max-width: 800px) 100vw, 800px"
+                          title="P-value কী এবং বৈজ্ঞানিক পরীক্ষা নিরীক্ষায় এই মানের গুরুত্ব"
+                          data-recalc-dims="1"
+                        />
+                        <figcaption>
+                          Drug A এবং Drug B কে নিয়ে করা বিভিন্ন পরীক্ষার ফলাফল ও
+                          তার P-Value
+                        </figcaption>
+                      </figure>
+                      <p>
+                        এখানে চারটি বিভিন্ন পরীক্ষার ফলাফল ও তার P-Value
+                        প্রকাশিত হয়েছে। প্রথম পরীক্ষাটিতে P-Value-র মান ০.৯, যা
+                        ০.০৫ এর থেকে অনেক বেশী। তাই আমরা বলতে পারি এই গ্রুপটিতে
+                        কোন পার্থক্য পরিলক্ষিত হচ্ছে না। এই পরীক্ষাটি বহুবার
+                        পুনরাবৃত্তি করা হোল। এবং দেখা গেল অধিকাংশ ক্ষেত্রেই
+                        P-Value র মান অনেক বেশী। কিন্তু চতুর্থ পরীক্ষাটি লক্ষ্য
+                        করুন। এখানে P-Value-র মান ০.০৫ এর অনেক কম। তার মানে এই
+                        পরীক্ষাটি দেখে মনে হোল যে এই দুটি গ্রুপের মধ্যে একটি
+                        পার্থক্য আছে।
+                      </p>
+                      <p>
+                        বহুবার পরীক্ষা করতে করতে একবার দুবার এমনি হতেই পারে যে
+                        একটি গ্রুপে কোন কারণে এমন কিছু রোগীকেই বেশী চয়ন করা হয়ে
+                        যাদের এই ওষুধটির প্রতি কোন allergy আছে, আর দ্বিতীয়
+                        গ্রুপটিতে যারা আছেন তাদের ক্ষেত্রে কোন কারণে Placebo
+                        Effect বেশী কাজ করেছে। তাই, এক্ষেত্রে কোন পার্থক্য না
+                        থাকলেও ফলাফল দেখে মনে হচ্ছে যেন কোন পার্থক্য আছে। এই
+                        ধরনের ভ্রান্তিকে বলা হয়, False Positive, অর্থাৎ P-Value
+                        র ক্ষুদ্র মান এমন এক পরিস্থিতিতে যেখানে সত্যিই কোন
+                        পার্থক্য নেই।
+                      </p>
+                      <p>
+                        P-Value-র সীমা ০.০৫ বেঁধে দেওয়ার অর্থ হোল, শতকরা ৫ ভাগ
+                        পরীক্ষার ক্ষেত্রে False Positive ফলাফল আসার সম্ভাবনা।
+                        অর্থাৎ প্রথম এবং দ্বিতীয় ওষুধের মধ্যে যদি সত্যিই যদি
+                        কোনো পার্থক্য না থাকে, তাহলে শতকরা 5 ভাগ পরীক্ষায় এমন
+                        একটি P-Value পাওয়া যাবে যার মান 0.05 এর কম (False
+                        Positive)। ওষুধটি যদি সত্যিই গুরুত্বপূর্ণ একটি একটি ওষুধ
+                        হয়, তাহলে আমরা আরো ক্ষুদ্র একটি সীমা নির্ধারণ করতে
+                        পারি। খুব ক্ষুদ্র একটি সীমা নির্ধারণ করলে, তাতে অনেক
+                        বেশি সময় এবং অর্থ অপচয় হতে পারে; যা হয়তো প্রয়োজনের
+                        অতিরিক্ত হয়ে দাঁড়াতে পারে।
+                        <strong
+                          >পরিসংখ্যান তত্ত্বে এইভাবে একটি সিদ্ধান্তে উপনীত
+                          হওয়ার প্রচেষ্টাকে বলা হয়, Hypothesis Testing বা
+                          &#8216;অনুমান পরীক্ষা&#8217;।</strong
+                        >
+                        প্রথমেই দুই ধরনের Hypothesis উপস্থাপন করা হয়। এদের মধ্যে
+                        একটি &#8216;Null Hypothesis&#8217;, অপরটি
+                        &#8216;Alternate Hypothesis&#8217;। উদাহরন হিসাবে ধরা
+                        যেতে পারে, Drug A এবং Drug B নিয়ে আমরা যে পরীক্ষাটি
+                        দেখেছিলাম, সেখানে Null Hypothesis হোল, &#8220;Drug A এবং
+                        Drug B এর মধ্যে কার্যকারিতার কোন পার্থক্য নেই&#8221;।
+                        এবং Alternate Hypothesis ঠিক তার উল্টো, অর্থাৎ Alternate
+                        Hypothesis বলছে এদের মধ্যে পার্থক্য আছে। P-Value এই Null
+                        Hypothesis কে প্রত্যাখান বা খারিজ করতে সাহায্য করে।
+                        অর্থাৎ যদি পরীক্ষালব্ধ P-Value পূর্বনির্ধারিত মানের কম
+                        হয় তাহলে আমরা Null Hypothesis-টি খারিজ করতে পারি।
+                      </p>
+                      <p>
+                        আরও একটি গুরুত্বপূর্ণ বিষয় এখানে উল্লেখ করা উচিত যে,
+                        P-value যদিও দুটি ওষুধের মধ্যে পার্থক্য আছে কিনা
+                        নির্ধারণ করতে সাহায্য করে, কিন্তু সেই পারথক্যের মাত্রা
+                        নির্ধারণ করে না। নীচের উদাহরনটি দেখা যাক,
+                      </p>
+                      <figure
+                        class="
+                          wp-block-image
+                          size-large
+                          is-resized is-style-default
+                        "
+                      >
+                        <img
+                          loading="lazy"
+                          src="https://i1.wp.com/www.shongshoy.com/wp-content/uploads/2021/02/image-2.png?resize=800%2C133&#038;ssl=1"
+                          alt="P-Value"
+                          class="wp-image-24575"
+                          width="800"
+                          height="133"
+                          srcset="
+                            https://i1.wp.com/www.shongshoy.com/wp-content/uploads/2021/02/image-2.png?w=624&amp;ssl=1           624w,
+                            https://i1.wp.com/www.shongshoy.com/wp-content/uploads/2021/02/image-2.png?resize=300%2C50&amp;ssl=1 300w
+                          "
+                          sizes="(max-width: 800px) 100vw, 800px"
+                          title="P-value কী এবং বৈজ্ঞানিক পরীক্ষা নিরীক্ষায় এই মানের গুরুত্ব"
+                          data-recalc-dims="1"
+                        />
+                        <figcaption>
+                          দুটি পরীক্ষায় P-Value-র পার্থক্য
+                        </figcaption>
+                      </figure>
+                      <p>
+                        এখানে প্রথম পরীক্ষাটিতে সুস্থ হয়ে ওঠা রোগীদের পার্থক্য
+                        8%, কিন্তু দ্বিতীয় পরীক্ষা দিতে সুস্থ হয়ে ওঠা রোগীদের
+                        পার্থক্য কেবল মাত্র 1%; কিন্তু প্রথম পরীক্ষাটিতে P-Value
+                        0.24 কিন্তু দ্বিতীয় পরীক্ষাতে P-Value 0.04। অর্থাৎ
+                        প্রথম পরীক্ষা অপেক্ষা দ্বিতীয় পরীক্ষা থেকে অনেক বেশী
+                        আত্মবিশ্বাসের সাথে এই কথা বলা যায় যে প্রথম এবং দ্বিতীয়
+                        গ্রুপের মধ্যে পার্থক্য আছে। তাই sample size যত বেশী হবে
+                        Null Hypothesis টি তত বেশী আত্মবিশ্বাসের সাথে প্রত্যাখান
+                        করা যাবে।
+                      </p>
+                      <p>
+                        <strong
+                          >সহজ কথায়, Null Hypothesis প্রত্যাখ্যান করার মত যথেষ্ট
+                          প্রমান আচে কিনা সেটা যাচাই করাই P-Value।</strong
+                        >
+                      </p>
+                      <h2 id="p-value_নির্ণয়_করা_হয়_কিভাবে">
+                        <span id="P-Value">P-Value নির্ণয় করা হয় কিভাবে?</span>
+                      </h2>
+                      <p>
+                        P-value মানে যে কেবল Probability নয়, তা এতক্ষণে পরিষ্কার
+                        হয়ে গেছে আশা করি। Probability এবং P-Value-র মধ্যে
+                        সম্পর্ক থাকলেও তারা এক নয়। একটা খুব সহজ উদাহরন দেখা যাক।
+                        ধরা যাক, একটি মুদ্রা আছে, যার একদিক Head(H) ও অপরদিকে
+                        Tail(T)। এই কয়েনটি যদি একটি সাধারণ Fair কয়েন হয় তাহলে, H
+                        ও T পড়ার সম্ভাবনা ৫০%। ধরা যাক, পর পর দুইবার এই কয়েনটি
+                        টস করা হবে। উভয় ক্ষেত্রেই H ও T পড়ার সম্ভাবনা ৫০%। এখন
+                        আমাদের নির্ণয় করতে হবে, পর পর দুই বার H পড়ার সম্ভাবনা
+                        কত? এবং পর পর দুইবার H পড়ার P-Value কত?
+                      </p>
+                      <p>
+                        প্রথম প্রশ্নের উত্তর সহজ। চারটি সাম্ভাব্য ফলাফল, HH, HT,
+                        TH, TT; যাদের মধ্যে HH পড়ার সম্ভাবনা তাহলে 1/4=0.25। একই
+                        ভাবে পর পর দুই T পড়ার সম্ভাবনাও 0.25। একবার H ও একবার T
+                        পড়ার সম্ভাবনা 2/4=0.5।
+                      </p>
+                      <p>
+                        এবার P-Value নির্ণয় করা যাক। কিন্তু তার আগে P-Value-র
+                        সংজ্ঞাটা আগে জেনে নেওয়া যাক।
+                      </p>
+                      <blockquote class="wp-block-quote">
+                        <p>
+                          A P-Value is the probability that random chance
+                          generated the data, or something else that is equal or
+                          rarer.
+                        </p>
+                      </blockquote>
+                      <p>
+                        উপরোক্ত এই সংজ্ঞাটি থেকে আমরা P-Value নির্ণয়ের চেষ্টা
+                        করি। এই সংজ্ঞার তিনটি অংশ। প্রথম অংশটি হোল,
+                        &#8220;random chance generated the data&#8221;। আমরা
+                        জানি HH পড়ার সম্ভাবনা 0.25। দ্বিতীয় অংশ,
+                        &#8220;something else that is equal&#8221;। আমরা জানি,
+                        TT পড়ার সম্ভাবনা 0.25। তৃতীয় অংশ, &#8220;rarer&#8221;।
+                        কিন্তু আমাদের এই পরীক্ষায় HH বা TT পড়ার থেকে আর কোন
+                        দুর্লভ ফলাফল পাওয়া সম্ভব নয়, তাই এই অংশের মান শুন্য। তাই
+                        এই পরীক্ষায় P-Value, 0.25+0.25=0.5।
+                      </p>
+                      <p>
+                        ধরা যাক, আরেকটি কয়েন নিয়ে টস করতে গিয়ে দেখা গেল, পর পর
+                        পাঁচবার H পড়েছে। এখন এই ফলাফল থেকে কত নিশ্চিয়তার সাথে
+                        বলা যায় যে কয়েনটি একটি Fair coin নয়। তাহলে প্রথমেই
+                        নির্ণয় করা যাক, পর পর পাঁচ বার H পড়ার সম্ভাবনা কত? উত্তর
+                        হোল, (1/2)<sup>5</sup>= 1/32। ঠিক একই ভাবে পর পর T পড়ার
+                        সম্ভাবনা 1/32। এবং এই দুই ধরনের ফলাফলা ছাড়া আর কোন
+                        দুর্লভ ফলাফল নেই। তাহলে P-Value হোল 1/32+1/32=0.0625।
+                      </p>
+                      <p>
+                        ঠিক একই ভাবে ধরা যাক, পর পর ১০ বার H পড়েছে। তাহলে P
+                        value 2(1/2)<sup>10</sup> = 0.001953125।
+                      </p>
+                      <p>
+                        তাহলে দেখা গেল, কোন কয়েন &#8216;Fair&#8217; কিনা সেই
+                        সিধান্তে উপনীত হতে হলে যত বেশী বার Toss করা হবে, ততই
+                        বেশী আত্মবিশ্বাসের সাথে একটি সিধান্তে উপনীত হওয়া যাবে।
+                      </p>
+                      <p>
+                        আরও একটু পরিষ্কার ভাবে বোঝার জন্য, আর একটি উদাহরন দেখি।
+                        ধরা যাক, এবার আবার চারবার H ও একবার T পড়ার p-Value
+                        নির্ণয় করতে হবে। সেক্ষেত্রে, P-Value= Pr(4H and 1T)+
+                        Pr(1H and 4T)+ Pr(5H) + Pr(5T)=
+                        0.15625+0.15625+0.03125+0.03125=0.375।
+                      </p>
+                      <p>
+                        এবার আসা যাক কিছু বাস্তব উদাহরনে। ধর যাক, আমাদের কোন
+                        একটি জনগোষ্ঠীর Normal Hemoglobin level নির্ণয় করতে হবে।
+                        সাধারণভাবে দেখা যায় একটি Population এর মধ্যে এই
+                        Hemoglobin এর যা যা মান হতে পারে তা একটি normal
+                        distribution এর মধ্যে পড়ে। শুধু Hemoglobin নয়, আরও অনেক
+                        অনেক বৈশিষ্ট্য এইভাবে normal distribution এর মধ্যে পড়ে,
+                        যেমন উচ্চতা, ওজোন ইত্যাদি ইত্যাদি। নীচের ছবিদুটি দেখা
+                        যাক,
+                      </p>
+                      <figure
+                        class="wp-block-image is-resized is-style-default"
+                      >
+                        <img
+                          loading="lazy"
+                          src="https://i2.wp.com/www.simplypsychology.org/p-value.png?resize=800%2C500&#038;ssl=1"
+                          alt="Image result for p value definition"
+                          width="800"
+                          height="500"
+                          title="P-value কী এবং বৈজ্ঞানিক পরীক্ষা নিরীক্ষায় এই মানের গুরুত্ব"
+                          data-recalc-dims="1"
+                        />
+                        <figcaption>Normal Distribution</figcaption>
+                      </figure>
+                      <figure
+                        class="wp-block-image is-resized is-style-default"
+                      >
+                        <img
+                          loading="lazy"
+                          src="https://i0.wp.com/stevegallik.org/images/Normal_Distribution.gif?resize=800%2C574"
+                          alt="Image result for normal distribution and standard deviation and mean"
+                          width="800"
+                          height="574"
+                          title="P-value কী এবং বৈজ্ঞানিক পরীক্ষা নিরীক্ষায় এই মানের গুরুত্ব"
+                          data-recalc-dims="1"
+                        />
+                        <figcaption>
+                          Normal Distribution with Mean Value and Standard
+                          Distribution
+                        </figcaption>
+                      </figure>
+                      <p>
+                        যদি কোন জনগোষ্ঠীর মধ্যে গড় Hemoglobin যদি 14.5 হয় এবং
+                        সমস্ত মানুষের Hemoglobin level যদি একটি normal
+                        distribution অনুযায়ী হয়, তাহলে mean থেকে +/-3SD বা Sigma
+                        value এর মধ্যে 99.7% value চলে আসবে। Mean value থেকে
+                        +/-2SD এর মধ্যে 95.4% value চলে আসবে।
+                      </p>
+                      <h2 id="cern-এর_5_sigma_value-র_গুরুত্ব">
+                        <span id="CERN-_5_Sigma_Value"
+                          >CERN-এর 5 Sigma Value-র গুরুত্ব</span
+                        >
+                      </h2>
+                      <p>
+                        Five sigma(<strong>σ</strong>) বলতে এমন একটি P-value-কে
+                        বোঝায় যার মান 3&#215;10<sup>-7</sup>, অথবা 1 in 3.5
+                        million। এর অর্থ এই নয় যে Higgs boson-র অস্ত্বিত্ব আছে
+                        না নেই তার সম্ভাবনা। এর অর্থ এই যে, যদি কণাটির
+                        অস্ত্বিত্ব না থাকে, তা হলেও CERN-এর বিজ্ঞানীরা যে তথ্য
+                        পেলেন, সেই তথ্য পাওয়ার সম্ভাবনা। তাই যতই সেই five sigma
+                        থেকে আরও বেশী significance level-এর দিকে যাওয়া যাবে, ততই
+                        বেশী নিশ্চিত হওয়া যাবে বিশ্বাসযোগ্যতা সম্পর্কে।
+                      </p>
+                      <h2 id="উপসংহার"><span id="i-3">উপসংহার</span></h2>
+                      <p>
+                        বিজ্ঞান এমন একটি অধ্যয়ন ক্ষেত্র, যা স্বাভাবিক ভাবেই খুবই
+                        রক্ষণশীল। বিজ্ঞানীরা যে কোনও বিষয়েই নিশ্চিত, এই কথা
+                        বলতে অত্যন্ত দ্বিধাগ্রস্থ হন। প্রকৃতপক্ষে, বিজ্ঞানের
+                        একটি অলিখিত নিয়ম হ&#8217;ল, একজন বিজ্ঞানীকে এই সম্ভাবনা
+                        অবশ্যই মাথায় রাখতে হবে যে, পরবর্তী পরীক্ষা নিরীক্ষা থেকে
+                        এমন কোন অতিরিক্ত তথ্য উথে আসতে পারে, যা বর্তমান ধারনাকে
+                        নস্যাৎ করে দেবে। হতেই পারে, সেই পূর্ববর্তী ধারনা খুবই
+                        পছন্দের একটি ধারনা। এই অলিখিত নিয়মটি বিজ্ঞানী মাত্রেই
+                        অনুসরন করেন।
+                      </p>
+                      <p>
+                        আমাদের আগের একটি উদাহরনের কথাই ধরা যাক। আমাদের কাছে একটি
+                        coin ছিল আর আমাদের নির্ধারণ করতে হত সেই coinটি একটি fair
+                        coin কি না। আমি এই coin নিয়ে চারবার toss করলাম আর
+                        প্রতিবারই দেখলাম আমার এই coinটি head পড়েছে। আমি এই
+                        পরীক্ষা থেকে একটা সন্দেহ প্রকাশ করতে পারি, কিন্তু একদম
+                        নিশ্চিতভাবে একথা বলতে পারি না যে, এই coinটি অবশ্যই fair
+                        coin নয়। কারণ পরবর্তী আরও ১০০বার toss করার পর হয়তো দেখা
+                        গেল, সমান সংখ্যক বার H এবং T পড়েছে।
+                      </p>
+                      <p>
+                        আবার এমনও হতে পারে, পরবর্তী ২০ বার toss করায় দেখা গেলো
+                        যে, ১৯ বার H এবং ১ বার T এসেছে। তাহলে অনেক বেশী নিশ্চিত
+                        ভাবে আমরা বলতে পারি যে এই coinটি একটি &#8216;Fair
+                        coin&#8217; না হবার সম্ভাবনা অনেক বেশী। কিন্তু পরবর্তী
+                        পরীক্ষা নিরীক্ষায় এমন তথ্য প্রমান উথে আসতেই পারে, যা এই
+                        পূর্ববর্তী ধারনা নস্যাৎ করে দিতে পারে, আর বিজ্ঞানীরা সেই
+                        সম্ভাবনাকে কখনই উড়িয়ে দেন না; আর এখানেই বিজ্ঞানের
+                        সৌন্দর্য।
+                        <strong
+                          >বিজ্ঞান ও বিজ্ঞানীরা এই দুই সম্ভাবনার প্রতি সমান
+                          উন্মুক্ত।</strong
+                        >
+                      </p>
+                      <p>
+                        অন্য ভাবে বলতে গেলে, আমরা coinটি নিয়ে স্বল্প কয়েকবার
+                        toss করলাম, আর প্রতিবার H এলেও আমরা প্রাথমিক ভাবে ধারনা
+                        করতে পারি যে &#8216;fair coin&#8217; নয়। কিন্তু আরও
+                        নিশ্চিত হবার জন্য, আরও তথ্য প্রমান প্রয়োজন। আর সেই
+                        কারণেই আমরা আরও অসংখ্য বার coin toss করলাম। সারাদিন ধরে
+                        coin toss করলাম। দেখা গেল H এর সংখ্যা T এর থেকে অনেক
+                        অনেক অনেক গুণ বেশী। একজন সাধারণ মানুষ হয়তো এখান থেকে
+                        হয়তো খুব দৃঢ়ভাবে এই সিধান্তে উপনীত হতে পারেন যে এটি একটি
+                        &#8216;Fair Coin&#8217; নয়। কিন্তু একজন বিজ্ঞানীকে
+                        জিজ্ঞাসা করুন, তিনি বলবেন যে তিনি এই coin-টি &#8216;Fair
+                        Coin&#8217; হবার সম্ভাবনা খুব খুব খুব কম। অথবা বলবেন
+                        তিনি 99.99999% নিশ্চিত যে এই কয়েন একটি &#8216;fair
+                        coin&#8217; নয়। এই পার্থক্যের কারণ হোল, বিজ্ঞানীরা যা
+                        ধারনা করেন সেই ধারনার যথার্থতা কতোটা, তার মানও নির্দেশ
+                        করেন। কারণ তারা জানেন, প্রতিটি &#8216;event&#8217;
+                        স্বতন্ত্র এবং পূর্বের &#8216;event&#8217;এর উপর
+                        নির্ভরশীল নয়, তাই যদিও ক্ষুদ্র এবং নগন্য, কিন্তু এক
+                        বিশাল সংখ্যকবার H আসা একেবারেই অসম্ভব নয়।
+                      </p>
+                      <p>
+                        একজন সাধারণ মানুষ এই কথা বলতেই পারেন, &#8220;ও বুঝলাম!
+                        তাহলে এই ধারনা একদম সঠিক নয়?&#8221; কিন্তু একজন বিজ্ঞানী
+                        বলছেন যে, তিনি নিশ্চিত, কিন্তু তার এই ধারণা একটি
+                        যুক্তিযুক্ত সন্দেহের উর্ধে নয়।
+                      </p>
+                    </div>
+                    তথ্যসূত্রঃ
+                    <ol class="footnotes">
+                      <li id="footnote_0_24522" class="footnote">
+                        https://www.theguardian.com/science/occams-corner/2013/sep/19/science-religion-not-be-questioned<span
+                          class="footnote-back-link-wrapper"
+                          >[<a
+                            href="#identifier_0_24522"
+                            class="footnote-link footnote-back-link"
+                            >&#8593;</a
+                          >]</span
+                        >
+                      </li>
+                      <li id="footnote_1_24522" class="footnote">
+                        Henry Gee, (Thu 19 Sep 2013), Science: the religion that
+                        must not be questioned, Retrieved from
+                        https://www.theguardian.com/science/occams-corner/2013/sep/19/science-religion-not-be-questioned<span
+                          class="footnote-back-link-wrapper"
+                          >[<a
+                            href="#identifier_1_24522"
+                            class="footnote-link footnote-back-link"
+                            >&#8593;</a
+                          >]</span
+                        >
+                      </li>
+                      <li id="footnote_2_24522" class="footnote">
+                        Higgs boson results from LHC &#8216;get even
+                        stronger&#8217;<span class="footnote-back-link-wrapper"
+                          >[<a
+                            href="#identifier_2_24522"
+                            class="footnote-link footnote-back-link"
+                            >&#8593;</a
+                          >]</span
+                        >
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <ul class="default-wp-page clearfix">
+              <li class="previous">
+                <a href="/archives/24488" rel="prev"
+                  ><span class="meta-nav">&larr;</span> ইসলাম এবং বামহাতিদের
+                  কথা</a
+                >
+              </li>
+              <li class="next">
+                <a href="/archives/24637" rel="next"
+                  >আমাদের নীতি-নৈতিকতা তথা morality-র উৎস ধর্ম নয়
+                  <span class="meta-nav">&rarr;</span></a
+                >
+              </li>
+            </ul>
+            <div id="comments" class="comments-area">
+              <div id="respond" class="comment-respond">
+                <h3 id="reply-title" class="comment-reply-title">
+                  Leave a Reply
+                  <small
+                    ><a
+                      rel="nofollow"
+                      id="cancel-comment-reply-link"
+                      href="/archives/24522#respond"
+                      style="display: none"
+                      >Cancel reply</a
+                    ></small
+                  >
+                </h3>
+                <form
+                  action="/wp-comments-post.php"
+                  method="post"
+                  id="commentform"
+                  class="comment-form"
+                  novalidate
+                >
+                  <p class="comment-notes">
+                    <span id="email-notes"
+                      >Your email address will not be published.</span
+                    >
+                    Required fields are marked <span class="required">*</span>
+                  </p>
+                  <p class="comment-form-comment">
+                    <label for="comment">Comment</label>
+                    <textarea
+                      id="comment"
+                      name="comment"
+                      cols="45"
+                      rows="8"
+                      maxlength="65525"
+                      required="required"
+                    ></textarea>
+                  </p>
+                  <p class="comment-form-author">
+                    <label for="author"
+                      >Name <span class="required">*</span></label
+                    >
+                    <input
+                      id="author"
+                      name="author"
+                      type="text"
+                      value=""
+                      size="30"
+                      maxlength="245"
+                      required="required"
+                    />
+                  </p>
+                  <p class="comment-form-email">
+                    <label for="email"
+                      >Email <span class="required">*</span></label
+                    >
+                    <input
+                      id="email"
+                      name="email"
+                      type="email"
+                      value=""
+                      size="30"
+                      maxlength="100"
+                      aria-describedby="email-notes"
+                      required="required"
+                    />
+                  </p>
+                  <p class="comment-form-url">
+                    <label for="url">Website</label>
+                    <input
+                      id="url"
+                      name="url"
+                      type="url"
+                      value=""
+                      size="30"
+                      maxlength="200"
+                    />
+                  </p>
+                  <p class="form-submit">
+                    <input
+                      name="submit"
+                      type="submit"
+                      id="submit"
+                      class="submit"
+                      value="Post Comment"
+                    />
+                    <input
+                      type="hidden"
+                      name="comment_post_ID"
+                      value="24522"
+                      id="comment_post_ID"
+                    />
+                    <input
+                      type="hidden"
+                      name="comment_parent"
+                      id="comment_parent"
+                      value="0"
+                    />
+                  </p>
+                  <p style="display: none">
+                    <input
+                      type="hidden"
+                      id="akismet_comment_nonce"
+                      name="akismet_comment_nonce"
+                      value="a121554084"
+                    />
+                  </p>
+                  <input
+                    type="hidden"
+                    id="ak_js"
+                    name="ak_js"
+                    value="138"
+                  /><textarea
+                    name="ak_hp_textarea"
+                    cols="45"
+                    rows="8"
+                    maxlength="100"
+                    style="display: none !important"
+                  ></textarea>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div id="secondary">
+            <aside id="search-4" class="widget widget_search clearfix">
+              <h3 class="widget-title"><span>অনুসন্ধান</span></h3>
+              <form
+                action="/"
+                class="search-form searchform clearfix"
+                method="get"
+                role="search"
+              >
+                <div class="search-wrap">
+                  <input
+                    type="search"
+                    class="s field"
+                    name="s"
+                    value=""
+                    placeholder="Search"
+                  />
+                  <button class="search-icon" type="submit"></button>
+                </div>
+              </form>
+            </aside>
+            <aside id="text-23" class="widget widget_text clearfix">
+              <h3 class="widget-title"><span>পরিবেশ সচেতন হোন</span></h3>
+              <div class="textwidget">
+                <ul style="list-style-type: square">
+                  <li>
+                    <h6>
+                      <span style="color: #008000"
+                        >পলিথিন, প্লাস্টিকের পন্য ব্যবহার বন্ধ করুন।</span
+                      >
+                    </h6>
+                  </li>
+                  <li>
+                    <h6>
+                      <span style="color: #008000"
+                        >যেখানে সেখানে ময়লা আবর্জনা ফেলবেন না।</span
+                      >
+                    </h6>
+                  </li>
+                  <li>
+                    <h6>
+                      <span style="color: #008000"
+                        >পুকুরে, নদীতে বা সমুদ্রে কখনোই আবর্জনা ফেলবেন না।</span
+                      >
+                    </h6>
+                  </li>
+                  <li>
+                    <h6>
+                      <span style="color: #008000"
+                        >এই পৃথিবীই আমাদের একমাত্র গ্রহ, আমাদের একমাত্র আবাস।
+                        একে সুস্থ রাখুন।</span
+                      >
+                    </h6>
+                  </li>
+                  <li>
+                    <h6>
+                      <span style="color: #008000"
+                        >পরিবেশ সচেতনতার অংশ হিসেবে আমরা ব্যবহার করছি
+                        <span style="color: #993300"
+                          ><a
+                            style="color: #993300"
+                            href="https://greenhost.nl/"
+                            >Greenhost</a
+                          > </span
+                        >সার্ভার, যা গ্রীন এনার্জি দ্বারা পরিচালিত এবং
+                        পরিবেশবান্ধব।</span
+                      >
+                    </h6>
+                  </li>
+                  <li>
+                    <h6>
+                      <span style="color: #008000"
+                        >ইন্টারনেট নিরাপত্তার জন্য আমরা ব্যবহার করছি
+                        <span style="color: #993300"
+                          ><a
+                            style="color: #993300"
+                            href="https://www.cloudflare.com/"
+                            >Cloudflare</a
+                          >।</span
+                        ></span
+                      >
+                    </h6>
+                  </li>
+                  <li>
+                    <h6>
+                      <span style="color: #008000"
+                        >শিশুদের প্রতি সদয় হোন। তাদের বকাঝকা কিংবা মারধর করবেন
+                        না।</span
+                      >
+                    </h6>
+                  </li>
+                  <li>
+                    <h6>
+                      <span style="color: #008000"
+                        >আমাদের <span style="color: #993300"
+                          ><a
+                            style="color: #993300"
+                            href="https://play.google.com/store/apps/details?id=com.shongshoy.www.twa"
+                            >অ্যান্ড্রয়েড অ্যাপ</a
+                          ></span
+                        >
+                        ডাউনলোড করুন</span
+                      >
+                    </h6>
+                  </li>
+                </ul>
+              </div>
+            </aside>
+            <aside
+              id="recent-posts-2"
+              class="widget widget_recent_entries clearfix"
+            >
+              <h3 class="widget-title"><span>সাম্প্রতিক প্রবন্ধ</span></h3>
+              <ul>
+                <li>
+                  <a href="/archives/26559"
+                    >ভিক্টিম ব্লেইমিং এর ব্যাখ্যা এবং জাস্ট ওয়ার্ল্ড হাইপোথিসিজ
+                    বায়াস</a
+                  >
+                </li>
+                <li>
+                  <a href="/archives/26469"
+                    >জনসংখ্যা বৃদ্ধি, মাতৃ ও শিশুমৃত্যুতে ইসলামের ভূমিকা</a
+                  >
+                </li>
+                <li>
+                  <a href="/archives/25644"
+                    >ইসলামে দাসীদের সাথে আচরণ প্রসঙ্গে</a
+                  >
+                </li>
+                <li>
+                  <a href="/archives/26397"
+                    >মোরালিটিঃ হামজা জর্জিসের আল্লাহ বনাম ইসলামের আল্লাহ</a
+                  >
+                </li>
+                <li>
+                  <a href="/archives/25707">ইসলামে ইহুদীবিদ্বেষ</a>
+                </li>
+              </ul>
+            </aside>
+            <aside
+              id="custom_html-14"
+              class="widget_text widget widget_custom_html clearfix"
+            >
+              <h3 class="widget-title"><span>দাবী সমূহের প্রতিক্রিয়া</span></h3>
+              <div class="textwidget custom-html-widget">
+                <ul>
+                  <li style="font-size: 16px">
+                    <a
+                      href="/archives/13862"
+                      class="bump-view"
+                      data-bump-view="tp"
+                      >নাস্তিকতাই স্ট্যালিনের গনহত্যার জন্য দায়ী?
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      href="/archives/9908"
+                      class="bump-view"
+                      data-bump-view="tp"
+                      >সুনিতা উইলিয়ামসের ইসলাম গ্রহণ?
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      href="/archives/9937"
+                      class="bump-view"
+                      data-bump-view="tp"
+                      >চন্দ্র দ্বিখণ্ডনের ফটোগ্রাফিক প্রমাণ?
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      href="/archives/5820"
+                      class="bump-view"
+                      data-bump-view="tp"
+                      >ভবিষ্য পুরাণে কী নবী মুহাম্মদের নাম রয়েছে?
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      href="/archives/9460"
+                      class="bump-view"
+                      data-bump-view="tp"
+                      >আয়িশা কী বয়ঃসন্ধিকালে পৌঁছেছিলেন?
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      href="/archives/13749"
+                      class="bump-view"
+                      data-bump-view="tp"
+                      >কুরআন এবং মৌমাছির “মিরাকল”
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      href="/archives/8123"
+                      class="bump-view"
+                      data-bump-view="tp"
+                      >সবকিছু জোড়ায় জোড়ায় বিদ্যমান?
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      href="/archives/15794"
+                      class="bump-view"
+                      data-bump-view="tp"
+                      >কুরআন এবং উল্কা
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      href="/archives/13960"
+                      class="bump-view"
+                      data-bump-view="tp"
+                      >কুরআনে সম্প্রসারণশীল মহাবিশ্ব?
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      href="/archives/13995"
+                      class="bump-view"
+                      data-bump-view="tp"
+                      >কুরআন এবং মেঘের ওজন
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      href="/archives/13966"
+                      class="bump-view"
+                      data-bump-view="tp"
+                    >
+                      কুরআন এবং বৃষ্টি
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      href="/archives/13721"
+                      class="bump-view"
+                      data-bump-view="tp"
+                      >কুরআন জানিয়েছে চাঁদের নিজস্ব আলো নেই?
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      href="/archives/13692"
+                      class="bump-view"
+                      data-bump-view="tp"
+                      >ইরাম শহর
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      href="/archives/13674"
+                      class="bump-view"
+                      data-bump-view="tp"
+                      >দুই সমুদ্রের পানি একত্রিত হয় না?
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      href="/archives/13352"
+                      class="bump-view"
+                      data-bump-view="tp"
+                      >গর্ভের সন্তানের লিঙ্গ নির্ধারণ
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      href="/archives/12175"
+                      class="bump-view"
+                      data-bump-view="tp"
+                      >কুরআন এবং ভ্রূণের বিকাশ: নুতফা পর্যায়</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      href="/archives/12566"
+                      class="bump-view"
+                      data-bump-view="tp"
+                      >কুরআন এবং ভ্রূণের বিকাশ: আলাকাহ পর্যায়</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      href="/archives/10453"
+                      class="bump-view"
+                      data-bump-view="tp"
+                      >কুরআনে পুরুষ নারী কি সমান সংখ্যক বার?</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      href="/archives/8575"
+                      class="bump-view"
+                      data-bump-view="tp"
+                      >কোরআন এবং বীর্যের উৎস</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      href="/archives/13442"
+                      class="bump-view"
+                      data-bump-view="tp"
+                      >রোজার ওপর গবেষণা করে নোবেল?
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      href="/archives/13452"
+                      class="bump-view"
+                      data-bump-view="tp"
+                      >রোজার উপকারিতা বৈজ্ঞানিকভাবে প্রমাণিত?</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      href="/archives/13428"
+                      class="bump-view"
+                      data-bump-view="tp"
+                      >রোজা নিয়ে বিভিন্ন প্রোপাগাণ্ডার জবাব</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      href="/archives/13735"
+                      class="bump-view"
+                      data-bump-view="tp"
+                      >আজানের সময় কুকুর ডাকে কেন?
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      href="/archives/12470"
+                      class="bump-view"
+                      data-bump-view="tp"
+                      >রবীন্দ্র সংগীতের মত গান রচনা করেন দেখি?
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      href="/archives/242"
+                      class="bump-view"
+                      data-bump-view="tp"
+                      >সুরা মমতাময়ী</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </aside>
+            <aside
+              id="custom_html-12"
+              class="widget_text widget widget_custom_html clearfix"
+            >
+              <h3 class="widget-title"><span>অবশ্যপাঠ্য প্রবন্ধ</span></h3>
+              <div class="textwidget custom-html-widget">
+                <ul>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/329"
+                      data-bump-view="tp"
+                    >
+                      নাস্তিকতা কী একটি বিশ্বাস?
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/2626"
+                      data-bump-view="tp"
+                    >
+                      বহুল প্রচলিত কিছু কুযুক্তি</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/6969"
+                      data-bump-view="tp"
+                    >
+                      ঈশ্বর হাইপোথিসিস
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/6949"
+                      data-bump-view="tp"
+                    >
+                      কালাম কসমোলজিক্যাল আর্গুমেন্ট
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/11845"
+                      data-bump-view="tp"
+                    >
+                      আস্তিক্যবাদ, নাস্তিক্যবাদ এবং অজ্ঞেয়বাদ</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/11574"
+                      data-bump-view="tp"
+                    >
+                      নাস্তিকতার বিরুদ্ধে কিছু মিথ | স্যাম হ্যারিস</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/11585"
+                      data-bump-view="tp"
+                    >
+                      আল্লাহর অঙ্গপ্রতঙ্গ এবং স্বভাব চরিত্র
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/1124"
+                      data-bump-view="tp"
+                    >
+                      আল্লাহর সাক্ষাৎকার। পর্ব &ndash; ১
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/14250"
+                      data-bump-view="tp"
+                    >
+                      ইসলামের অন্যতম ভিত্তি তাকদীর প্রসঙ্গে
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/10705"
+                      data-bump-view="tp"
+                    >
+                      আরশ ও কুরসী সৃষ্টির বিবরণ &ndash; ইবনে কাসীর
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/13635"
+                      data-bump-view="tp"
+                    >
+                      পৃথিবী আগে সৃষ্টি নাকি মহাকাশ?</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/11459"
+                      data-bump-view="tp"
+                    >
+                      আদম ও মুসার বাদানুবাদ প্রসঙ্গে</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/8484"
+                      data-bump-view="tp"
+                    >
+                      কোরআন সংকলন এবং পরিমার্জনের ইতিহাস</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/16004"
+                      data-bump-view="tp"
+                    >
+                      শয়তানের আয়াত বা স্যাটানিক ভার্সেস</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/10065"
+                      data-bump-view="tp"
+                    >
+                      কোরআন বিকৃতি ও সাত আহরুফের সাতকাহন</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/7598"
+                      data-bump-view="tp"
+                    >
+                      কোরআনে বৈপরীত্য</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/10671"
+                      data-bump-view="tp"
+                    >
+                      নাজিলের সময়ানুক্রমে কুরআনের সূরাসমূহের সিরিয়াল</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/7469"
+                      data-bump-view="tp"
+                    >
+                      কুরআনের নাসখ (রহিত বা বাতিল) আয়াতের তালিকা</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/10686"
+                      data-bump-view="tp"
+                    >
+                      কুরআনে অমুসলিমদের সম্পর্কে যা যা বলা হয়েছে</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/13572"
+                      data-bump-view="tp"
+                    >
+                      অমুসলিমদের সাথে বন্ধুত্ব? &ndash; কুরআন হাদিসের দলিল</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/173"
+                      data-bump-view="tp"
+                    >
+                      সর্বোচ্চ সম্মান এবং সুমহান মর্যাদা!
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/13133"
+                      data-bump-view="tp"
+                    >
+                      ইসলামে বৈবাহিক ধর্ষণের বৈধতা
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/13850"
+                      data-bump-view="tp"
+                    >
+                      স্ত্রী কি স্বামীর দাসী সেক্স বিষয়ে আপত্তি করতে পারে?
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/13370"
+                      data-bump-view="tp"
+                    >
+                      স্ত্রীকে প্রহার প্রসঙ্গে | তাফসীরে ইবনে কাসীর</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/12151"
+                      data-bump-view="tp"
+                    >
+                      স্ত্রীর ওপর স্বামীর হক | ইমাম গাজ্জালী</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/569"
+                      data-bump-view="tp"
+                    >
+                      ইসলাম, গনিমতের মাল এবং আমাদের মানবতা!
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/2175"
+                      data-bump-view="tp"
+                    >
+                      পরিপ্রেক্ষিত, প্রেক্ষাপট এবং অন্যান্য
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/11734"
+                      data-bump-view="tp"
+                    >
+                      যুদ্ধবন্দী নারী ও দাসী ধর্ষণের বৈধতা</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/14960"
+                      data-bump-view="tp"
+                    >
+                      বনূ কুরায়যা অভিযান | ইবনে হিশাম
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/12756"
+                      data-bump-view="tp"
+                    >
+                      অপদস্থতার নিদর্শন জিযিয়া | মাযহারী
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/12031"
+                      data-bump-view="tp"
+                    >
+                      ইসলাম ত্যাগ &ndash; কুরআন হাদিসের দলিল</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/10273"
+                      data-bump-view="tp"
+                    >
+                      ইসলাম এবং ধর্মত্যাগ</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/11559"
+                      data-bump-view="tp"
+                    >
+                      মুরতাদের শাস্তি &ndash; সাইয়েদ আবু আ&rsquo;লা মওদূদী</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/11811"
+                      data-bump-view="tp"
+                    >
+                      দাস প্রথা &ndash; কুরআন হাদিসের দলিল</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/10970"
+                      data-bump-view="tp"
+                    >
+                      আল-হিদায়া &ndash; জিহাদ অধ্যায়</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/10964"
+                      data-bump-view="tp"
+                    >
+                      দাসীর উম্মে ওয়ালাদ হওয়া | আল হিদায়া</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/11736"
+                      data-bump-view="tp"
+                    >
+                      মুহাম্মদের ছবি সংগ্রহশালা
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/19236"
+                      data-bump-view="tp"
+                    >
+                      নবী মুহাম্মদ কি সর্বকালের সর্বশ্রেষ্ঠ মানুষ ছিলেন?</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/9396"
+                      data-bump-view="tp"
+                    >
+                      হযরত মুহাম্মদের কুকুর ভীতি এবং নির্মম নিধনযজ্ঞ</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/6870"
+                      data-bump-view="tp"
+                    >
+                      মুসলমানদের মধ্যে অভিশাপ সংস্কৃতি</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/12202"
+                      data-bump-view="tp"
+                    >
+                      মুহাম্মদের গুপ্তহত্যা । অবমাননার শাস্তি</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/7033"
+                      data-bump-view="tp"
+                    >
+                      বহুবিবাহ এবং ইসলামিক ডিফেন্স</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/7181"
+                      data-bump-view="tp"
+                    >
+                      বাল্যবিবাহ এবং ইসলামিক ডিফেন্স</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/7202"
+                      data-bump-view="tp"
+                    >
+                      বাল্যবিবাহ এবং পবিত্র পেডোফিলিয়া</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/10722"
+                      data-bump-view="tp"
+                    >
+                      হযরতের দাসীদের বিবরণ</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/14168"
+                      data-bump-view="tp"
+                    >
+                      মারিয়া কিবতিয়া | বাঁদী পত্নী সমাচার!
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/11491"
+                      data-bump-view="tp"
+                    >
+                      সুরা তাহরীম এর তাফসির &ndash; ইবনে কাসীর</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/11625"
+                      data-bump-view="tp"
+                    >
+                      সুরা তাহরীম | তাফসীরে জালালাইন</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/category/%e0%a6%ac%e0%a6%87"
+                      data-bump-view="tp"
+                    >
+                      গুরুত্বপূর্ণ বই সমূহ</a
+                    >
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/category/%e0%a6%a7%e0%a6%b0%e0%a7%8d%e0%a6%ae/%e0%a6%b9%e0%a6%bf%e0%a6%a8%e0%a7%8d%e0%a6%a6%e0%a7%81%e0%a6%a7%e0%a6%b0%e0%a7%8d%e0%a6%ae"
+                      data-bump-view="tp"
+                    >
+                      হিন্দু ধর্ম বিষয়ক প্রবন্ধ সমূহ
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/category/%e0%a6%a7%e0%a6%b0%e0%a7%8d%e0%a6%ae/%e0%a6%96%e0%a7%8d%e0%a6%b0%e0%a6%bf%e0%a6%b8%e0%a7%8d%e0%a6%9f%e0%a6%be%e0%a6%a8"
+                      data-bump-view="tp"
+                      >খ্রিস্টান ধর্ম বিষয়ক প্রবন্ধ সমূহ
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/category/%e0%a6%a7%e0%a6%b0%e0%a7%8d%e0%a6%ae/%e0%a6%ac%e0%a7%8c%e0%a6%a6%e0%a7%8d%e0%a6%a7"
+                      data-bump-view="tp"
+                      >বৌদ্ধ ধর্ম বিষয়ক প্রবন্ধ সমূহ
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/tag/%e0%a6%86%e0%a6%b0%e0%a6%9c-%e0%a6%86%e0%a6%b2%e0%a7%80-%e0%a6%ae%e0%a6%be%e0%a6%a4%e0%a7%81%e0%a6%ac%e0%a7%8d%e0%a6%ac%e0%a6%b0"
+                      data-bump-view="tp"
+                    >
+                      আরজ আলী মাতুব্বরের লেখা
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/category/science"
+                      data-bump-view="tp"
+                    >
+                      বিজ্ঞান বিষয়ক প্রবন্ধসমূহ
+                    </a>
+                  </li>
+                  <li style="font-size: 16px">
+                    <a
+                      class="bump-view"
+                      href="/archives/category/%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A7%80%E0%A6%AC%E0%A6%BE%E0%A6%A6"
+                      data-bump-view="tp"
+                    >
+                      নারীবাদ বিষয়ক প্রবন্ধসমূহ
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </div>
+      <div class="advertisement_above_footer">
+        <div class="inner-wrap">
+          <aside
+            id="custom_html-28"
+            class="widget_text widget widget_custom_html clearfix"
+          >
+            <div class="textwidget custom-html-widget">
+              <script
+                async
+                defer
+                src="https://scripts.simpleanalyticscdn.com/latest.js"
+              ></script>
+              <noscript
+                ><img
+                  src="https://i1.wp.com/queue.simpleanalyticscdn.com/noscript.gif?w=800&#038;ssl=1"
+                  alt=""
+                  referrerpolicy="no-referrer-when-downgrade"
+                  data-recalc-dims="1"
+              /></noscript>
+            </div>
+          </aside>
+        </div>
+      </div>
+      <footer id="colophon" class="clearfix colormag-footer--classic">
+        <div class="footer-widgets-wrapper">
+          <div class="inner-wrap">
+            <div class="footer-widgets-area clearfix">
+              <div class="tg-footer-main-widget">
+                <div class="tg-first-footer-widget">
+                  <aside id="text-26" class="widget widget_text clearfix">
+                    <h3 class="widget-title">
+                      <span
+                        >&#8220;সংশয় – চিন্তার মুক্তির আন্দোলন&#8221;
+                        সম্পর্কে</span
+                      >
+                    </h3>
+                    <div class="textwidget">
+                      <p>
+                        “সংশয় – চিন্তার মুক্তির আন্দোলন” একটি অলাভজনক ওয়েবসাইট।
+                        এই ওয়েবসাইটের সকল লেখা সম্পূর্ণ কপিরাইট মুক্ত। শুধুমাত্র
+                        পাঠকদের বুদ্ধিবৃত্তিক বিতর্ক এবং আলোচনাকে উৎসাহিত করার
+                        উদ্দেশ্যে তৈরি করা। বাঙলাদেশ সরকার কর্তৃক ইতিমধ্যে
+                        আমাদের অনেক লেখক এবং গোটা ওয়েবসাইটই নিষিদ্ধ ঘোষিত হয়েছে।
+                        যা আমাদের জন্য গর্বের, সম্মানের এবং আনন্দের। অসংখ্য
+                        আক্রমণ এবং রাজনৈতিক নির্যাতনের পরেও, জেল জুলুম এবং
+                        মামলার পরেও আমরা লিখে যাচ্ছি- সত্য, যুক্তি এবং
+                        মুক্তচিন্তা প্রসারের স্বার্থে। আপনাদের সহযোগিতা আমাদের
+                        কাম্য। অনুগ্রহ করে ওয়েবসাইটটি বন্ধুদের সাথে শেয়ার করুন।
+                        অলাভজনক ওয়েবসাইট হওয়ার কারণে আমাদের সামর্থ্য সীমিত। আপনি
+                        কোন ডোনেশন পাঠাতে চাইলে সম্পাদকের কাছে ইমেইল করুন।আমাদের
+                        <a
+                          href="https://play.google.com/store/apps/details?id=com.shongshoy.www.twa"
+                          >অ্যান্ড্রয়েড অ্যাপ</a
+                        >
+                        ডাউনলোড করুন
+                      </p>
+                    </div>
+                  </aside>
+                </div>
+              </div>
+              <div class="tg-footer-other-widgets">
+                <div class="tg-second-footer-widget">
+                  <aside id="text-27" class="widget widget_text clearfix">
+                    <h3 class="widget-title"><span>অন্যান্য তথ্য</span></h3>
+                    <div class="textwidget">
+                      <p>
+                        লেখা পাঠাবার জন্য আমাদের কাছে একটি লেখা ইমেইল করুন।
+                        রেফারেন্সভিত্তিক তথ্যসমৃদ্ধ লেখাই শুধুমাত্র আমরা প্রকাশ
+                        করি।<br />
+                        <a href="/wp-login.php?action=register"
+                          >রেজিস্ট্রেশন বা সাবস্ক্রাইব করুন।</a
+                        ><br />
+                        Editor-in-Chief: Asif Mohiuddin&nbsp;<a
+                          href="/cdn-cgi/l/email-protection#573e39313817243f383930243f382e7934383a680422353d3234236a1635382223726567043f383930243f382e"
+                          target="_top"
+                          rel="noopener"
+                          >Send Mail</a
+                        ><br />
+                        Editor: Matubbar Azad Avijit&nbsp;<a
+                          href="/cdn-cgi/l/email-protection#b0ddd1c4c5d2d2d1c2f0c3d8dfded7c3d8dfc99ed3dfdd8fe3c5d2dad5d3c48df1d2dfc5c4958280e3d8dfded7c3d8dfc9"
+                          target="_top"
+                          rel="noopener"
+                          >Send Mail</a
+                        ><br />
+                        Editor: Marufur Rahman Khan&nbsp;<a
+                          href="/cdn-cgi/l/email-protection#6c010d1e190a2c1f0403020b1f04031542031e0b533f190e06090f18512d0e031918495e5c3f0403020b1f040315"
+                          target="_top"
+                          rel="noopener"
+                          >Send Mail</a
+                        >
+                      </p>
+                    </div>
+                  </aside>
+                </div>
+                <div class="tg-third-footer-widget">
+                  <aside
+                    id="media_image-16"
+                    class="widget widget_media_image clearfix"
+                  >
+                    <h3 class="widget-title"><span>পুরষ্কার</span></h3>
+                    <a
+                      href="https://www.dw.com/en/bangladesh-gags-award-winning-blogger/a-16697713"
+                      ><img
+                        class="image"
+                        src="/wp-content/uploads/2018/02/Banner_user-best_social_activism.png.webp"
+                        alt=""
+                        width="125"
+                        height="125"
+                    /></a>
+                  </aside>
+                </div>
+                <div class="tg-fourth-footer-widget">
+                  <aside id="meta-6" class="widget widget_meta clearfix">
+                    <h3 class="widget-title"><span>প্রবেশদ্বার</span></h3>
+                    <ul>
+                      <li>
+                        <a rel="nofollow" href="/wp-login.php?action=register"
+                          >Register</a
+                        >
+                      </li>
+                      <li><a rel="nofollow" href="/wp-login.php">Log in</a></li>
+                      <li><a href="/feed">Entries feed</a></li>
+                      <li><a href="/comments/feed">Comments feed</a></li>
+                      <li>
+                        <a href="https://wordpress.org/">WordPress.org</a>
+                      </li>
+                    </ul>
+                  </aside>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-socket-wrapper clearfix">
+          <div class="inner-wrap">
+            <div class="footer-socket-area">
+              <div class="footer-socket-right-section"></div>
+              <div class="footer-socket-left-section">
+                <div class="copyright">
+                  কপিরাইট &copy; 2021
+                  <a href="/" title="সংশয় &#8211; চিন্তার মুক্তির আন্দোলন"
+                    ><span>সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</span></a
+                  >. সর্বসত্ত্ব মানুষের জন্য সংরক্ষিত.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <a href="#masthead" id="scroll-up"><i class="fa fa-chevron-up"></i></a>
+    </div>
+    <script
+      data-cfasync="false"
+      src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script type="text/javascript" id="pf_script">
+      var pfHeaderImgUrl = "";
+      var pfHeaderTagline = "";
+      var pfdisableClickToDel = "0";
+      var pfImagesSize = "full-size";
+      var pfImageDisplayStyle = "right";
+      var pfEncodeImages = "0";
+      var pfDisableEmail = "0";
+      var pfDisablePDF = "0";
+      var pfDisablePrint = "0";
+      var pfCustomCSS = "";
+      var pfPlatform = "WordPress";
+    </script>
+    <script async src="https://cdn.printfriendly.com/printfriendly.js"></script>
+    <script
+      type="text/javascript"
+      src="https://c0.wp.com/p/jetpack/9.8.1/_inc/build/photon/photon.min.js"
+      id="jetpack-photon-js"
+    ></script>
+    <script type="text/javascript" id="toc-front-js-extra">
+      /* <![CDATA[ */
+      var tocplus = {
+        smooth_scroll: "1",
+        visibility_show: "show",
+        visibility_hide: "hide",
+        width: "Auto",
+      };
+      /* ]]> */
+    </script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/table-of-contents-plus/front.min.js?ver=2106"
+      id="toc-front-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://c0.wp.com/c/5.7.2/wp-includes/js/comment-reply.min.js"
+      id="comment-reply-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/themes/colormag/js/jquery.bxslider.min.js?ver=2.0.7"
+      id="colormag-bxslider-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/themes/colormag/js/navigation.min.js?ver=2.0.7"
+      id="colormag-navigation-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/themes/colormag/js/fitvids/jquery.fitvids.min.js?ver=2.0.7"
+      id="colormag-fitvids-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/themes/colormag/js/skip-link-focus-fix.min.js?ver=2.0.7"
+      id="colormag-skip-link-focus-fix-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/themes/colormag/js/colormag-custom.min.js?ver=2.0.7"
+      id="colormag-custom-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/pwa-register-sw.js?ver=1.7.33"
+      id="pwa-main-script-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://c0.wp.com/c/5.7.2/wp-includes/js/wp-embed.min.js"
+      id="wp-embed-js"
+    ></script>
+    <script
+      async="async"
+      type="text/javascript"
+      src="/wp-content/plugins/akismet/_inc/form.js?ver=4.1.9"
+      id="akismet-form-js"
+    ></script>
+    <script src="https://stats.wp.com/e-202125.js" defer></script>
+    <script>
+      _stq = window._stq || [];
+      _stq.push([
+        "view",
+        {
+          v: "ext",
+          j: "1:9.8.1",
+          blog: "167704995",
+          post: "24522",
+          tz: "1",
+          srv: "www.shongshoy.com",
+        },
+      ]);
+      _stq.push(["clickTrackerInit", "167704995", "24522"]);
+    </script>
+    <script type="text/javascript">
+      (function () {
+        window["__CF$cv$params"] = {
+          r: "66560e9d5a284c37",
+          m: "9eebf164cdc89d3cd70e83fac3e30fdcbd28dd70-1624706539-1800-AVtiVyAo6pcK129DggZBacWdlrSrJXu68K60uEKvaNMiIKgASDr//nMdVg59EA3G5v5MyDx3ZRvf7Nx6XK5qtdAAY3UgzJ/vXtiZLAf0TLmARWyXCgxRSgNoSTlWDyJFMw==",
+          s: [0x67cf902fd1, 0xb49249e1e3],
+        };
+      })();
+    </script>
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"rayId":"66560e9d5a284c37","token":"4941ea9cfed04621b293c0d06f64fdce","version":"2021.5.2","si":10}'
+    ></script>
+  </body>
+</html>

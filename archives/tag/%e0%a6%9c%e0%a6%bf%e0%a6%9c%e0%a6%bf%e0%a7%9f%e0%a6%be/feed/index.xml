@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>জিজিয়া &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<atom:link href="/archives/tag/%E0%A6%9C%E0%A6%BF%E0%A6%9C%E0%A6%BF%E0%A7%9F%E0%A6%BE/feed" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>জ্ঞান যেখানে সীমাবদ্ধ, যুক্তি যেখানে আড়ষ্ট, মুক্তি সেখানে অসম্ভব</description>
+	<lastBuildDate>Fri, 19 Feb 2021 08:40:45 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+
+<image>
+	<url>https://i1.wp.com/www.shongshoy.com/wp-content/uploads/2020/12/shongshoy-512.png?fit=32%2C32&#038;ssl=1</url>
+	<title>জিজিয়া &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>অপদস্থতার নিদর্শন জিযিয়া &#124; তাফসীরে মাযহারী</title>
+		<link>/archives/12756</link>
+					<comments>/archives/12756#respond</comments>
+		
+		<dc:creator><![CDATA[আসিফ মহিউদ্দীন]]></dc:creator>
+		<pubDate>Sun, 10 Mar 2019 00:33:58 +0000</pubDate>
+				<category><![CDATA[ইসলাম]]></category>
+		<category><![CDATA[বই]]></category>
+		<category><![CDATA[স্টিকি]]></category>
+		<category><![CDATA[জিজিয়া]]></category>
+		<guid isPermaLink="false">http://www.nastikya.com/?p=12756</guid>
+
+					<description><![CDATA[অনেকেই জিযিয়া এবং খেরাজকে মিলিয়ে ফেলে জিযিয়াকে ট্যাক্স হিসেবে দাবী করেন। খেরাজ হচ্ছে অমুসলিমদের দেয়া কর। জিযিয়া হচ্ছে বেঁচে থাকার জন্য দেয়া অর্থ]]></description>
+		
+					<wfw:commentRss>/archives/12756/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>বিবেকের কাঠগড়ায় &#8220;জিজিয়া&#8221;</title>
+		<link>/archives/2371</link>
+					<comments>/archives/2371#comments</comments>
+		
+		<dc:creator><![CDATA[Johny Johny Yes Papa]]></dc:creator>
+		<pubDate>Tue, 09 Jan 2018 20:12:24 +0000</pubDate>
+				<category><![CDATA[ইসলাম]]></category>
+		<category><![CDATA[প্রতিক্রিয়া]]></category>
+		<category><![CDATA[মানবাধিকার]]></category>
+		<category><![CDATA[অমুসলিম]]></category>
+		<category><![CDATA[কাফের]]></category>
+		<category><![CDATA[জিজিয়া]]></category>
+		<category><![CDATA[জিজিয়া কর]]></category>
+		<guid isPermaLink="false">https://www.nastikya.com/?p=2371</guid>
+
+					<description><![CDATA[ তাফসীর সমূহ থেকে আমরা জানতে পারি যে সৃষ্টিকর্তার ব্যাপারে যদি কেউ মুসলমানদের সাথে ভিন্ন মত পোষণ করে তবে সে একজন অপরাধী এবং এই অপরাধের একমাত্র শাস্তি হল মৃত্যুদণ্ড। এবং এই শাস্তি মউকুফের একমাত্র পন্থা হল জিজিয়া]]></description>
+		
+					<wfw:commentRss>/archives/2371/feed</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: ঈদ হাসতে শেখায়, ভালবাসতে শেখায়?	</title>
+	<atom:link href="/archives/169/feed" rel="self" type="application/rss+xml" />
+	<link>/archives/169</link>
+	<description>জ্ঞান যেখানে সীমাবদ্ধ, যুক্তি যেখানে আড়ষ্ট, মুক্তি সেখানে অসম্ভব</description>
+	<lastBuildDate>Wed, 27 May 2020 12:34:54 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>
+		By: Bipul Dutta		</title>
+		<link>/archives/169#comment-21</link>
+
+		<dc:creator><![CDATA[Bipul Dutta]]></dc:creator>
+		<pubDate>Tue, 21 Mar 2017 10:24:34 +0000</pubDate>
+		<guid isPermaLink="false">#comment-21</guid>
+
+					<description><![CDATA[অনেক সুন্দর লিখেছেন। 
+ধন্যবাদ আসিফ ভাই।]]></description>
+			<content:encoded><![CDATA[<p>অনেক সুন্দর লিখেছেন।<br />
+ধন্যবাদ আসিফ ভাই।</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

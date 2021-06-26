@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>নারী অধিকার &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<atom:link href="/archives/tag/%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A7%80-%E0%A6%85%E0%A6%A7%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B0/feed" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>জ্ঞান যেখানে সীমাবদ্ধ, যুক্তি যেখানে আড়ষ্ট, মুক্তি সেখানে অসম্ভব</description>
+	<lastBuildDate>Wed, 02 Jun 2021 12:04:13 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+
+<image>
+	<url>https://i1.wp.com/www.shongshoy.com/wp-content/uploads/2020/12/shongshoy-512.png?fit=32%2C32&#038;ssl=1</url>
+	<title>নারী অধিকার &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>সর্বোচ্চ সম্মান এবং সুমহান মর্যাদা!</title>
+		<link>/archives/173</link>
+					<comments>/archives/173#comments</comments>
+		
+		<dc:creator><![CDATA[Asif Mohiuddin]]></dc:creator>
+		<pubDate>Thu, 12 Jan 2017 15:34:14 +0000</pubDate>
+				<category><![CDATA[নারীবাদ]]></category>
+		<category><![CDATA[সম্পাদকীয়]]></category>
+		<category><![CDATA[ইসলামে নারী]]></category>
+		<category><![CDATA[নারী অধিকার]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[ইসলাম নারীকে কি কি সুমহান অধিকার দিয়েছে, তার বয়ান মাঝে মাঝেই বিভিন্ন ইসলামী চিন্তাবিদ এবং ওয়াজকারীদের মুখে শুনে বড় ভাল লাগে, মনে শান্তি পাই যে ইসলাম নারীকে খুব উঁচু সম্মান দিয়েছে।]]></description>
+		
+					<wfw:commentRss>/archives/173/feed</wfw:commentRss>
+			<slash:comments>17</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

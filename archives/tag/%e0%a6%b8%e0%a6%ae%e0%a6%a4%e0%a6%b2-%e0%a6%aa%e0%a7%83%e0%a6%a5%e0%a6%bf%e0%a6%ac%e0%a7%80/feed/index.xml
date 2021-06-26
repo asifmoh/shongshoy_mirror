@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>সমতল পৃথিবী &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<atom:link href="/archives/tag/%E0%A6%B8%E0%A6%AE%E0%A6%A4%E0%A6%B2-%E0%A6%AA%E0%A7%83%E0%A6%A5%E0%A6%BF%E0%A6%AC%E0%A7%80/feed" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>জ্ঞান যেখানে সীমাবদ্ধ, যুক্তি যেখানে আড়ষ্ট, মুক্তি সেখানে অসম্ভব</description>
+	<lastBuildDate>Sun, 17 May 2020 12:15:29 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+
+<image>
+	<url>https://i1.wp.com/www.shongshoy.com/wp-content/uploads/2020/12/shongshoy-512.png?fit=32%2C32&#038;ssl=1</url>
+	<title>সমতল পৃথিবী &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>শুরুর দিকের মুসলিমরা কি জানতো পৃথিবী গোল?</title>
+		<link>/archives/7694</link>
+					<comments>/archives/7694#comments</comments>
+		
+		<dc:creator><![CDATA[Fatik Chowdhuri]]></dc:creator>
+		<pubDate>Wed, 15 Aug 2018 15:52:41 +0000</pubDate>
+				<category><![CDATA[ইসলাম]]></category>
+		<category><![CDATA[প্রশ্নোত্তর]]></category>
+		<category><![CDATA[প্রোপাগান্ডা]]></category>
+		<category><![CDATA[সমতল পৃথিবী]]></category>
+		<guid isPermaLink="false">https://www.nastikya.com/?p=7694</guid>
+
+					<description><![CDATA[প্রাচীনকালের মুসলমানদের মধ্যে গোলাকার পৃথিবীর বিশ্বাস থাকার কোনও প্রমাণ নেই বরং সমতল পৃথিবীতে বিশ্বাসের প্রচুর প্রমাণ রয়েছে]]></description>
+		
+					<wfw:commentRss>/archives/7694/feed</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

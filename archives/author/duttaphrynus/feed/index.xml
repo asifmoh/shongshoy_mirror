@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Tanmoy Roy &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<atom:link href="/archives/author/duttaphrynus/feed" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>জ্ঞান যেখানে সীমাবদ্ধ, যুক্তি যেখানে আড়ষ্ট, মুক্তি সেখানে অসম্ভব</description>
+	<lastBuildDate>Fri, 15 May 2020 20:00:34 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+
+<image>
+	<url>https://i1.wp.com/www.shongshoy.com/wp-content/uploads/2020/12/shongshoy-512.png?fit=32%2C32&#038;ssl=1</url>
+	<title>Tanmoy Roy &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>তথাকথিত মহানবীর বহুবিবাহের তথাকথিত রাজনৈতিক কারণ</title>
+		<link>/archives/7962</link>
+					<comments>/archives/7962#comments</comments>
+		
+		<dc:creator><![CDATA[Tanmoy Roy]]></dc:creator>
+		<pubDate>Wed, 29 Aug 2018 18:54:32 +0000</pubDate>
+				<category><![CDATA[ইসলাম]]></category>
+		<category><![CDATA[স্টিকি]]></category>
+		<category><![CDATA[নবী মুহাম্মাদ]]></category>
+		<guid isPermaLink="false">https://www.nastikya.com/?p=7962</guid>
+
+					<description><![CDATA[ইসলামী এপোলোজিস্টদের&#160;মতানুসারে নবী মুহাম্মদ তার অধিকাংশ স্ত্রীকেই বিবাহ করেছিলেন রাজনৈতিক কারণে। রাজনৈতিক অত্যাবশ্যকতার জন্য তিনি অনেক বিবাহ করেছিলেন। তবে এ]]></description>
+		
+					<wfw:commentRss>/archives/7962/feed</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>টাইম ডাইলেশন</title>
+		<link>/archives/7826</link>
+					<comments>/archives/7826#respond</comments>
+		
+		<dc:creator><![CDATA[Tanmoy Roy]]></dc:creator>
+		<pubDate>Tue, 21 Aug 2018 20:18:13 +0000</pubDate>
+				<category><![CDATA[বিজ্ঞান]]></category>
+		<category><![CDATA[স্টিকি]]></category>
+		<guid isPermaLink="false">https://www.nastikya.com/?p=7826</guid>
+
+					<description><![CDATA[ ১৯০৬ সালে বিজ্ঞানী আইনস্টাইন ‘থিওরি অফ রিলেটিভিটি’ প্রকাশ করেন যা পুরো পদার্থবিদ্যার জগৎকে ওলটপালট করে রেখে দেয়। তিনি আমাদের একটা অন্য জগৎকে দেখিয়ে দেন]]></description>
+		
+					<wfw:commentRss>/archives/7826/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>মুখোশের আড়ালে শ্রীল প্রভুপাদ</title>
+		<link>/archives/5815</link>
+					<comments>/archives/5815#comments</comments>
+		
+		<dc:creator><![CDATA[Tanmoy Roy]]></dc:creator>
+		<pubDate>Mon, 05 Mar 2018 16:22:00 +0000</pubDate>
+				<category><![CDATA[সংশয়বাদ]]></category>
+		<category><![CDATA[ইসকন]]></category>
+		<guid isPermaLink="false">https://www.nastikya.com/?p=5815</guid>
+
+					<description><![CDATA[আমরা সবাই অভয় চরণারবিন্দ ভক্তিবেদান্ত স্বামী প্রভুপাদ কে মোটামুটি চিনি, যিনি ইসকনের প্রতিষ্ঠাতা ছিলেন। উনি শ্রীল প্রভুপাদ নামেও পরিচিত। সনাতনী]]></description>
+		
+					<wfw:commentRss>/archives/5815/feed</wfw:commentRss>
+			<slash:comments>28</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

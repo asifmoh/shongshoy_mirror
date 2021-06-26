@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>সমকামী &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<atom:link href="/archives/tag/%E0%A6%B8%E0%A6%AE%E0%A6%95%E0%A6%BE%E0%A6%AE%E0%A7%80/feed" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>জ্ঞান যেখানে সীমাবদ্ধ, যুক্তি যেখানে আড়ষ্ট, মুক্তি সেখানে অসম্ভব</description>
+	<lastBuildDate>Tue, 15 Sep 2020 18:03:17 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+
+<image>
+	<url>https://i1.wp.com/www.shongshoy.com/wp-content/uploads/2020/12/shongshoy-512.png?fit=32%2C32&#038;ssl=1</url>
+	<title>সমকামী &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>সমকামীদের ওপর ইসলামের বর্বরতা</title>
+		<link>/archives/11715</link>
+					<comments>/archives/11715#comments</comments>
+		
+		<dc:creator><![CDATA[Marufur Rahman Khan]]></dc:creator>
+		<pubDate>Fri, 25 Jan 2019 07:20:07 +0000</pubDate>
+				<category><![CDATA[ইসলাম]]></category>
+		<category><![CDATA[মানবাধিকার]]></category>
+		<category><![CDATA[কুরআন হাদিসের দলিল]]></category>
+		<category><![CDATA[সমকামিতা]]></category>
+		<category><![CDATA[সমকামী]]></category>
+		<guid isPermaLink="false">http://www.nastikya.com/?p=11715</guid>
+
+					<description><![CDATA[এই প্রবন্ধটি তৈরি করার উদ্দেশ্য হচ্ছে সমকামীদের নিয়ে ইসলামের অবস্থান পাঠকদের সামনে তুলে ধরা। সমকামীদের ব্যাপারে ইসলাম কি বলে সেটা আমি কুরআন হাদিসের তথ্য দ্বারা আপনাদের সামনে তুলে ধরছি]]></description>
+		
+					<wfw:commentRss>/archives/11715/feed</wfw:commentRss>
+			<slash:comments>5</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

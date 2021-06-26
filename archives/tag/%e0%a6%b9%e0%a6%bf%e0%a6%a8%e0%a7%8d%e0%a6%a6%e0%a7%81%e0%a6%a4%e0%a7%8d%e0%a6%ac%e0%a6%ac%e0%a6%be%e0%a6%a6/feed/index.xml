@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>হিন্দুত্ববাদ &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<atom:link href="/archives/tag/%E0%A6%B9%E0%A6%BF%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%81%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BE%E0%A6%A6/feed" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>জ্ঞান যেখানে সীমাবদ্ধ, যুক্তি যেখানে আড়ষ্ট, মুক্তি সেখানে অসম্ভব</description>
+	<lastBuildDate>Sun, 13 Dec 2020 17:14:39 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+
+<image>
+	<url>https://i1.wp.com/www.shongshoy.com/wp-content/uploads/2020/12/shongshoy-512.png?fit=32%2C32&#038;ssl=1</url>
+	<title>হিন্দুত্ববাদ &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>দুর্গাপূজা উৎসবকে আমি ঘেন্না করি</title>
+		<link>/archives/9245</link>
+					<comments>/archives/9245#comments</comments>
+		
+		<dc:creator><![CDATA[আসিফ মহিউদ্দীন]]></dc:creator>
+		<pubDate>Wed, 17 Oct 2018 11:56:42 +0000</pubDate>
+				<category><![CDATA[হিন্দুধর্ম]]></category>
+		<category><![CDATA[হিন্দুত্ববাদ]]></category>
+		<guid isPermaLink="false">https://www.nastikya.com/?p=9245</guid>
+
+					<description><![CDATA[দুর্গাপূজা উৎসবকে আমি ঘেন্না করি। আরো বেশি ঘেন্না করি দুর্গা নামক প্রতারক এবং অসৎ দেবীকে, প্রতারণার মাধ্যমে যিনি মহিষাসুর নামক যোদ্ধাকে বধ করেছিলেন।]]></description>
+		
+					<wfw:commentRss>/archives/9245/feed</wfw:commentRss>
+			<slash:comments>12</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>শান্তিপ্রিয় হিন্দুত্ববাদী?</title>
+		<link>/archives/7878</link>
+					<comments>/archives/7878#comments</comments>
+		
+		<dc:creator><![CDATA[Matubbar Azad Avijit]]></dc:creator>
+		<pubDate>Tue, 28 Aug 2018 11:38:44 +0000</pubDate>
+				<category><![CDATA[স্টিকি]]></category>
+		<category><![CDATA[হিন্দুধর্ম]]></category>
+		<category><![CDATA[ধর্মীয় হত্যাকাণ্ড]]></category>
+		<category><![CDATA[ভারত]]></category>
+		<category><![CDATA[হিন্দু]]></category>
+		<category><![CDATA[হিন্দুত্ববাদ]]></category>
+		<guid isPermaLink="false">https://www.nastikya.com/?p=7878</guid>
+
+					<description><![CDATA[বর্বর খুনিদের সাফাই গাইতে হাজির হন কিছু তথাকথিত শান্তিপ্রিয় হিন্দু দাদাদিদি। তাই শুধু হিন্দুদের ও হিন্দুত্ববাদের বিরুদ্ধে কলম ধরতে গিয়ে নিহত পাঁচজনের ঘটনা তুলে ধরছি।]]></description>
+		
+					<wfw:commentRss>/archives/7878/feed</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

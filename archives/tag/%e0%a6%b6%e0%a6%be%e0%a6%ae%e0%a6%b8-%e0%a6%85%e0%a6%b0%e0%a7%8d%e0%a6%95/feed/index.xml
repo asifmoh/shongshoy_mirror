@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>শামস অর্ক &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<atom:link href="/archives/tag/%E0%A6%B6%E0%A6%BE%E0%A6%AE%E0%A6%B8-%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%95/feed" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>জ্ঞান যেখানে সীমাবদ্ধ, যুক্তি যেখানে আড়ষ্ট, মুক্তি সেখানে অসম্ভব</description>
+	<lastBuildDate>Wed, 05 Feb 2020 04:17:50 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+
+<image>
+	<url>https://i1.wp.com/www.shongshoy.com/wp-content/uploads/2020/12/shongshoy-512.png?fit=32%2C32&#038;ssl=1</url>
+	<title>শামস অর্ক &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>জান্নাত: মুক্তির সন্ধানে নারী &#124; শামস অর্ক</title>
+		<link>/archives/12389</link>
+					<comments>/archives/12389#respond</comments>
+		
+		<dc:creator><![CDATA[অতিথি লেখক]]></dc:creator>
+		<pubDate>Wed, 27 Feb 2019 10:51:44 +0000</pubDate>
+				<category><![CDATA[ইসলাম]]></category>
+		<category><![CDATA[ইসলামে নারী]]></category>
+		<category><![CDATA[নারীবাদ]]></category>
+		<category><![CDATA[বই]]></category>
+		<category><![CDATA[স্টিকি]]></category>
+		<category><![CDATA[শামস অর্ক]]></category>
+		<guid isPermaLink="false">http://www.nastikya.com/?p=12389</guid>
+
+					<description><![CDATA[বইটিতে বইটির লেখক 'শামস অর্ক' ইসলামে নারীর অবস্থান তুলে ধরেছেন এবং ইসলামে নারীর অবস্থান নিয়ে ইসলামের সমালোচকদের বিরুদ্ধে ইসলাম প্রচারকদের জবাব সমূহের অসাড়তা তুলে ধরেছেন]]></description>
+		
+					<wfw:commentRss>/archives/12389/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

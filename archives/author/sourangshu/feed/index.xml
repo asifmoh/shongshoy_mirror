@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>শৌরাংসু পাল &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<atom:link href="/archives/author/sourangshu/feed" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>জ্ঞান যেখানে সীমাবদ্ধ, যুক্তি যেখানে আড়ষ্ট, মুক্তি সেখানে অসম্ভব</description>
+	<lastBuildDate>Sun, 06 Jun 2021 12:46:20 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+
+<image>
+	<url>https://i1.wp.com/www.shongshoy.com/wp-content/uploads/2020/12/shongshoy-512.png?fit=32%2C32&#038;ssl=1</url>
+	<title>শৌরাংসু পাল &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>ধর্ম ও ধর্মেশ্বর &#8211; প্রথম পর্ব</title>
+		<link>/archives/10582</link>
+					<comments>/archives/10582#respond</comments>
+		
+		<dc:creator><![CDATA[শৌরাংসু পাল]]></dc:creator>
+		<pubDate>Wed, 12 Dec 2018 12:25:16 +0000</pubDate>
+				<category><![CDATA[অবশ্যপাঠ্য]]></category>
+		<category><![CDATA[ইতিহাস]]></category>
+		<category><![CDATA[ধর্ম]]></category>
+		<category><![CDATA[বিজ্ঞান]]></category>
+		<guid isPermaLink="false">https://www.nastikya.com/?p=10582</guid>
+
+					<description><![CDATA[শুধুমাত্র জানার আগ্রহেই মানুষ জীবনকে বাজি রেখে পাড়ি দিচ্ছে অনন্ত অসীম মহাকাশে, পৌঁছে যাচ্ছে অতল সমুদ্রের তলদেশে, চাঁদের সৌন্দর্যে মুগ্ধ হয়ে পৌঁছে যাচ্ছে চাঁদের বুকে]]></description>
+		
+					<wfw:commentRss>/archives/10582/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>বিগ ব্যাং থেকে মহাবিশ্ব</title>
+		<link>/archives/10532</link>
+					<comments>/archives/10532#comments</comments>
+		
+		<dc:creator><![CDATA[শৌরাংসু পাল]]></dc:creator>
+		<pubDate>Tue, 11 Dec 2018 12:20:06 +0000</pubDate>
+				<category><![CDATA[অবশ্যপাঠ্য]]></category>
+		<category><![CDATA[বিজ্ঞান]]></category>
+		<category><![CDATA[বৃহৎ সম্প্রসারণ]]></category>
+		<category><![CDATA[স্টিকি]]></category>
+		<guid isPermaLink="false">https://www.nastikya.com/?p=10532</guid>
+
+					<description><![CDATA[ভিন্ন ভিন্ন নামের ঈশ্বরকে জন্ম দিতে দিতে পৃথিবীটাকে বাহারি ঈশ্বরের একটা বিরাট ভাগার তৈরি করে ফেলেছিল, যার ফলশ্রুতিতে পৃথিবীতে ঘটে গিয়েছিল এক মহা ঈশ্বর বিস্ফোরণ]]></description>
+		
+					<wfw:commentRss>/archives/10532/feed</wfw:commentRss>
+			<slash:comments>5</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

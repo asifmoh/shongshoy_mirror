@@ -1,0 +1,4 @@
+# Mirror website for https://www.shongshoy.com
+
+User-agent: *
+Disallow: /

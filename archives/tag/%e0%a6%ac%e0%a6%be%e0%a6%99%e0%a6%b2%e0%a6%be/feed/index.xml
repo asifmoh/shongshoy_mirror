@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>বাঙলা &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<atom:link href="/archives/tag/%E0%A6%AC%E0%A6%BE%E0%A6%99%E0%A6%B2%E0%A6%BE/feed" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>জ্ঞান যেখানে সীমাবদ্ধ, যুক্তি যেখানে আড়ষ্ট, মুক্তি সেখানে অসম্ভব</description>
+	<lastBuildDate>Thu, 01 Apr 2021 11:13:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+
+<image>
+	<url>https://i1.wp.com/www.shongshoy.com/wp-content/uploads/2020/12/shongshoy-512.png?fit=32%2C32&#038;ssl=1</url>
+	<title>বাঙলা &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>বাঙলা ভাষার উপর বিষাক্ত ধর্মীয় আগ্রাসন</title>
+		<link>/archives/111</link>
+					<comments>/archives/111#comments</comments>
+		
+		<dc:creator><![CDATA[Asif Mohiuddin]]></dc:creator>
+		<pubDate>Thu, 12 Jan 2017 11:41:52 +0000</pubDate>
+				<category><![CDATA[ইতিহাস]]></category>
+		<category><![CDATA[সম্পাদকীয়]]></category>
+		<category><![CDATA[বাঙলা]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[বাঙালি মুসলমান আজও নিজের আত্মপরিচয় সম্পর্কে নিশ্চিত হতে পারে নি। আজও তারা মুসলমান বাঙালি, বাঙালি মুসলমান, বাঙলাদেশি মুসলিম, মুসলিম বাঙলাদেশি ইত্যাদি নানাবিধ আত্মপরিচয় সংকটে আবর্তিত]]></description>
+		
+					<wfw:commentRss>/archives/111/feed</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>গসিপ &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<atom:link href="/archives/tag/%E0%A6%97%E0%A6%B8%E0%A6%BF%E0%A6%AA/feed" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>জ্ঞান যেখানে সীমাবদ্ধ, যুক্তি যেখানে আড়ষ্ট, মুক্তি সেখানে অসম্ভব</description>
+	<lastBuildDate>Thu, 07 May 2020 15:48:52 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+
+<image>
+	<url>https://i1.wp.com/www.shongshoy.com/wp-content/uploads/2020/12/shongshoy-512.png?fit=32%2C32&#038;ssl=1</url>
+	<title>গসিপ &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>সেলিব্রিটি গসিপ আমাদের কেন এত প্রিয়?</title>
+		<link>/archives/12044</link>
+					<comments>/archives/12044#respond</comments>
+		
+		<dc:creator><![CDATA[Sumit Roy]]></dc:creator>
+		<pubDate>Tue, 12 Feb 2019 21:43:54 +0000</pubDate>
+				<category><![CDATA[বিজ্ঞান]]></category>
+		<category><![CDATA[বিবর্তন]]></category>
+		<category><![CDATA[মনোবিজ্ঞান]]></category>
+		<category><![CDATA[স্টিকি]]></category>
+		<category><![CDATA[গসিপ]]></category>
+		<category><![CDATA[সেলিব্রিটি গসিপ]]></category>
+		<guid isPermaLink="false">http://www.nastikya.com/?p=12044</guid>
+
+					<description><![CDATA["Gossip" শব্দটার বাংলা হচ্ছে পরচর্চা। অনেক মানুষকেই পরচর্চা করতে দেখা যায়, তবে সেলিব্রিটিদের গসিপ করার ব্যাপারটা সবচেয়ে বেশি দেখা যায়। অনলাইনে এটা যেন পেয়েছে এক নতুন মাত্রা।]]></description>
+		
+					<wfw:commentRss>/archives/12044/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

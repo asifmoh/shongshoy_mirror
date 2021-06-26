@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>আল-হিদায়া &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<atom:link href="/archives/tag/%E0%A6%86%E0%A6%B2-%E0%A6%B9%E0%A6%BF%E0%A6%A6%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%BE/feed" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>জ্ঞান যেখানে সীমাবদ্ধ, যুক্তি যেখানে আড়ষ্ট, মুক্তি সেখানে অসম্ভব</description>
+	<lastBuildDate>Sat, 20 Feb 2021 23:02:35 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+
+<image>
+	<url>https://i1.wp.com/www.shongshoy.com/wp-content/uploads/2020/12/shongshoy-512.png?fit=32%2C32&#038;ssl=1</url>
+	<title>আল-হিদায়া &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>দাসীর উম্মে ওয়ালাদ হওয়া &#124; আল হিদায়া</title>
+		<link>/archives/10964</link>
+					<comments>/archives/10964#respond</comments>
+		
+		<dc:creator><![CDATA[আসিফ মহিউদ্দীন]]></dc:creator>
+		<pubDate>Fri, 28 Dec 2018 19:34:35 +0000</pubDate>
+				<category><![CDATA[ইসলাম]]></category>
+		<category><![CDATA[বই]]></category>
+		<category><![CDATA[আল-হিদায়া]]></category>
+		<guid isPermaLink="false">http://www.nastikya.com/?p=10964</guid>
+
+					<description><![CDATA[দাসীর সাথে সহবাস এবং সহবাসের মাধ্যমে সন্তান জন্ম দেয়ার ইসলামের বিধান পাঠকের জন্য দেয়া হলো। সেই সাথে, কোন লোকের পুত্রের দাসীর সাথে সে এবং তার পুত্র উভয়ই যৌন সম্পর্ক করলে সন্তান জন্ম নিলে যেই সমস্যাটি দেখা দিবে, সেই সমস্যার সমাধান এখানে দেয়া হয়েছে।]]></description>
+		
+					<wfw:commentRss>/archives/10964/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

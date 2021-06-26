@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>নরমপন্থী &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<atom:link href="/archives/author/noromponthi/feed" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>জ্ঞান যেখানে সীমাবদ্ধ, যুক্তি যেখানে আড়ষ্ট, মুক্তি সেখানে অসম্ভব</description>
+	<lastBuildDate>Sun, 10 Mar 2019 16:50:42 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+
+<image>
+	<url>https://i1.wp.com/www.shongshoy.com/wp-content/uploads/2020/12/shongshoy-512.png?fit=32%2C32&#038;ssl=1</url>
+	<title>নরমপন্থী &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>আল্লামা শফীর জান্নাতী খোয়াব</title>
+		<link>/archives/8560</link>
+					<comments>/archives/8560#comments</comments>
+		
+		<dc:creator><![CDATA[নরমপন্থী]]></dc:creator>
+		<pubDate>Sun, 30 Sep 2018 08:38:01 +0000</pubDate>
+				<category><![CDATA[স্যাটায়ার]]></category>
+		<guid isPermaLink="false">https://www.nastikya.com/?p=8560</guid>
+
+					<description><![CDATA[আল্লামা শাহ আহমদ শফী হুজুর দেখলেন, তিনি মৃত্যুবরণ করেছেন। যেহেতু দীর্ঘদিন জান্নাত-গমনের আশায় তিনি আল্লাহের গুণকীর্তনে এবং আল্লাহর আইন প্রতিষ্ঠা]]></description>
+		
+					<wfw:commentRss>/archives/8560/feed</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>প্রসঙ্গঃ নবীগিরি কি এবং কিভাবে</title>
+		<link>/archives/8557</link>
+					<comments>/archives/8557#respond</comments>
+		
+		<dc:creator><![CDATA[নরমপন্থী]]></dc:creator>
+		<pubDate>Sun, 30 Sep 2018 07:44:01 +0000</pubDate>
+				<category><![CDATA[ইসলাম]]></category>
+		<guid isPermaLink="false">https://www.nastikya.com/?p=8557</guid>
+
+					<description><![CDATA[আমার মনে হয় নবী শব্দটার অর্থ এবং তাৎপর্য বর্তমানকালে যা বোঝায় অতীতকালে সেটা তেমন ছিল না, তা ছিল ভিন্ন রকম।]]></description>
+		
+					<wfw:commentRss>/archives/8557/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

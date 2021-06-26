@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: জারজ	</title>
+	<atom:link href="/archives/11218/feed" rel="self" type="application/rss+xml" />
+	<link>/archives/11218</link>
+	<description>জ্ঞান যেখানে সীমাবদ্ধ, যুক্তি যেখানে আড়ষ্ট, মুক্তি সেখানে অসম্ভব</description>
+	<lastBuildDate>Tue, 17 Nov 2020 01:00:40 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>
+		By: সাজ্জাদ হোসেন সাইফু		</title>
+		<link>/archives/11218#comment-4031</link>
+
+		<dc:creator><![CDATA[সাজ্জাদ হোসেন সাইফু]]></dc:creator>
+		<pubDate>Tue, 17 Nov 2020 01:00:40 +0000</pubDate>
+		<guid isPermaLink="false">https://www.nastikya.com/?p=11218#comment-4031</guid>
+
+					<description><![CDATA[এইভাবেই নাস্তিকরা ধরা খায়?]]></description>
+			<content:encoded><![CDATA[<p>এইভাবেই নাস্তিকরা ধরা খায়?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Alex		</title>
+		<link>/archives/11218#comment-914</link>
+
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+		<pubDate>Fri, 12 Apr 2019 10:34:15 +0000</pubDate>
+		<guid isPermaLink="false">https://www.nastikya.com/?p=11218#comment-914</guid>
+
+					<description><![CDATA[বালের কাল্পনিক গল্প]]></description>
+			<content:encoded><![CDATA[<p>বালের কাল্পনিক গল্প</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Pranab Kumar Das		</title>
+		<link>/archives/11218#comment-820</link>
+
+		<dc:creator><![CDATA[Pranab Kumar Das]]></dc:creator>
+		<pubDate>Wed, 09 Jan 2019 10:25:24 +0000</pubDate>
+		<guid isPermaLink="false">https://www.nastikya.com/?p=11218#comment-820</guid>
+
+					<description><![CDATA[অসাধারণ।]]></description>
+			<content:encoded><![CDATA[<p>অসাধারণ।</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

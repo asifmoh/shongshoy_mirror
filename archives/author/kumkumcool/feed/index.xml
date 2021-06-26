@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>আলোমগীর কবির কুমকুম &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<atom:link href="/archives/author/kumkumcool/feed" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>জ্ঞান যেখানে সীমাবদ্ধ, যুক্তি যেখানে আড়ষ্ট, মুক্তি সেখানে অসম্ভব</description>
+	<lastBuildDate>Sun, 25 Oct 2020 14:29:42 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+
+<image>
+	<url>https://i1.wp.com/www.shongshoy.com/wp-content/uploads/2020/12/shongshoy-512.png?fit=32%2C32&#038;ssl=1</url>
+	<title>আলোমগীর কবির কুমকুম &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>ধর্মগুলো কি আসলেই বিজ্ঞানসম্মত?</title>
+		<link>/archives/14544</link>
+					<comments>/archives/14544#comments</comments>
+		
+		<dc:creator><![CDATA[আলোমগীর কবির কুমকুম]]></dc:creator>
+		<pubDate>Mon, 02 Sep 2019 01:39:13 +0000</pubDate>
+				<category><![CDATA[ইতিহাস]]></category>
+		<category><![CDATA[ধর্ম]]></category>
+		<category><![CDATA[বিজ্ঞান]]></category>
+		<guid isPermaLink="false">https://www.nastikya.com/?p=14544</guid>
+
+					<description><![CDATA[ কারণ হচ্ছে বর্তমান যুগ জ্ঞান, বিজ্ঞান এবং প্রযুক্তি নির্ভর যুগ, এই যুগের সাথে তাল মিলিয়ে চলতে গেলে এবং ভবিষৎ-এ নিজেদের ধর্মগুলোকে টিকিয়ে রাখতে হলে তাদেরকে ধর্মগুলো বিজ্ঞান্সম্মত করতেই হবে]]></description>
+		
+					<wfw:commentRss>/archives/14544/feed</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>ঈশ্বরের অস্তিত্ব নেই তার প্রমাণ কি?</title>
+		<link>/archives/14511</link>
+					<comments>/archives/14511#comments</comments>
+		
+		<dc:creator><![CDATA[আলোমগীর কবির কুমকুম]]></dc:creator>
+		<pubDate>Fri, 30 Aug 2019 22:53:37 +0000</pubDate>
+				<category><![CDATA[স্বতন্ত্র ভাবনা]]></category>
+		<guid isPermaLink="false">https://www.nastikya.com/?p=14511</guid>
+
+					<description><![CDATA[প্রচলিত প্রতিটি ধর্ম তার নিজ ধর্মের ঈশ্বর বাদে বাকি সকল ধর্মের ঈশরকে এককভাবে ভুল বা মিথ্যা বলে থাকে এবং তাদের ধর্মের ঈশ্বরই একমাত্র সত্য এবং সঠিক বলে থাকে]]></description>
+		
+					<wfw:commentRss>/archives/14511/feed</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>শুকদেব পাল &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<atom:link href="/archives/author/bosu1992/feed" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>জ্ঞান যেখানে সীমাবদ্ধ, যুক্তি যেখানে আড়ষ্ট, মুক্তি সেখানে অসম্ভব</description>
+	<lastBuildDate>Fri, 26 Feb 2021 23:19:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+
+<image>
+	<url>https://i1.wp.com/www.shongshoy.com/wp-content/uploads/2020/12/shongshoy-512.png?fit=32%2C32&#038;ssl=1</url>
+	<title>শুকদেব পাল &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>মহাবিশ্বঃ বিস্ময়ের এক ইতিহাস</title>
+		<link>/archives/7111</link>
+					<comments>/archives/7111#comments</comments>
+		
+		<dc:creator><![CDATA[শুকদেব পাল]]></dc:creator>
+		<pubDate>Mon, 09 Jul 2018 11:06:25 +0000</pubDate>
+				<category><![CDATA[বিজ্ঞান]]></category>
+		<category><![CDATA[বৃহৎ সম্প্রসারণ]]></category>
+		<category><![CDATA[স্টিকি]]></category>
+		<category><![CDATA[মহাবিশ্ব]]></category>
+		<guid isPermaLink="false">https://www.nastikya.com/?p=7111</guid>
+
+					<description><![CDATA[ ১৯২৯ সালে হাবল পর্যবেক্ষন করলেন যে গ্যালাক্সী যত দুরে অবস্থিত তার দূরাপসারনের হারও তত বেশি। অন্য ভাষার বলা চলে মহাবিশ্ব সম্প্রসারিত হচ্ছে। অর্থাৎ আমাদের মহাবিশ্ব প্রসারমান। তাহলে বলা চলে বিপরীতক্রমে আমাদের এ মহাবিশ্ব কোন এক সময় কোন এব বিন্দুতে সংকুচিত ছিল।]]></description>
+		
+					<wfw:commentRss>/archives/7111/feed</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>বই &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<atom:link href="/archives/tag/%E0%A6%AC%E0%A6%87/feed" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>জ্ঞান যেখানে সীমাবদ্ধ, যুক্তি যেখানে আড়ষ্ট, মুক্তি সেখানে অসম্ভব</description>
+	<lastBuildDate>Wed, 24 Feb 2021 13:39:42 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+
+<image>
+	<url>https://i1.wp.com/www.shongshoy.com/wp-content/uploads/2020/12/shongshoy-512.png?fit=32%2C32&#038;ssl=1</url>
+	<title>বই &#8211; সংশয় &#8211; চিন্তার মুক্তির আন্দোলন</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>সংশয় প্রকাশনীর প্রথম ইবুক</title>
+		<link>/archives/16547</link>
+					<comments>/archives/16547#comments</comments>
+		
+		<dc:creator><![CDATA[আসিফ মহিউদ্দীন]]></dc:creator>
+		<pubDate>Tue, 07 Jan 2020 15:31:00 +0000</pubDate>
+				<category><![CDATA[অবশ্যপাঠ্য]]></category>
+		<category><![CDATA[ইসলাম]]></category>
+		<category><![CDATA[বই]]></category>
+		<category><![CDATA[স্টিকি]]></category>
+		<category><![CDATA[যে ঈশ্বর ঘৃণা করে]]></category>
+		<guid isPermaLink="false">/?p=16547</guid>
+
+					<description><![CDATA["সংশয় - চিন্তার মুক্তির আন্দোলন" শুরু করতে যাচ্ছে এই প্রথমবারের মত, আমাদের নিজস্ব ইবুক প্রকাশনা। প্রকাশিত হলো সংশয় প্রকাশনীর প্রথম ইবুক, ওয়াফা সুলতান এর " যে ঈশ্বর ঘৃণা করে " এর বাঙলা অনুবাদ।]]></description>
+		
+					<wfw:commentRss>/archives/16547/feed</wfw:commentRss>
+			<slash:comments>9</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>যেই বইগুলো না পড়লেই নয়</title>
+		<link>/archives/251</link>
+					<comments>/archives/251#comments</comments>
+		
+		<dc:creator><![CDATA[অতিথি লেখক]]></dc:creator>
+		<pubDate>Sun, 15 Jan 2017 12:51:32 +0000</pubDate>
+				<category><![CDATA[সাধারণ]]></category>
+		<category><![CDATA[বই]]></category>
+		<guid isPermaLink="false">http://www.nastikya.com/?p=251</guid>
+
+					<description><![CDATA[কোন বইগুলো আমাদের এগিয়ে দেবে? শৃঙ্খল ভেঙ্গে হ্নদয়কে মুক্ত করবে? ভাবনার ফলাফল হিশেবে নিজের কাছে মোটামুটি গ্রহনযোগ্য একটি বইয়ের তালিকা তৈরী করে ফেলেছি]]></description>
+		
+					<wfw:commentRss>/archives/251/feed</wfw:commentRss>
+			<slash:comments>9</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
