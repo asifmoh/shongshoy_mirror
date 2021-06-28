@@ -11,7 +11,7 @@
 <channel>
 	<title>
 	Comments on: 	</title>
-	<atom:link href="/author/bosu1992/feed" rel="self" type="application/rss+xml" />
+	<atom:link href="author/bosu1992/feed" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>জ্ঞান যেখানে সীমাবদ্ধ, যুক্তি যেখানে আড়ষ্ট, মুক্তি সেখানে অসম্ভব</description>
 	<lastBuildDate>Fri, 25 Jun 2021 07:44:58 +0000</lastBuildDate>

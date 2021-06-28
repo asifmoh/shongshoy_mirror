@@ -11,7 +11,7 @@
 <channel>
 	<title>
 	Comments on: উত্তরসমূহ	</title>
-	<atom:link href="/faq/feed" rel="self" type="application/rss+xml" />
+	<atom:link href="faq/feed" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>জ্ঞান যেখানে সীমাবদ্ধ, যুক্তি যেখানে আড়ষ্ট, মুক্তি সেখানে অসম্ভব</description>
 	<lastBuildDate>Sat, 05 Jun 2021 21:50:15 +0000</lastBuildDate>
@@ -165,7 +165,7 @@
 					<description><![CDATA[In reply to &lt;a href=&quot;/faq#comment-3231&quot;&gt;myangelodavid@gmail.com&lt;/a&gt;.
 
 try to understand the logic , or if you find any non logical sentences, you may describe . Do not show us the behavior of your clan]]></description>
-			<content:encoded><![CDATA[<p>In reply to <a href="/faq#comment-3231">myangelodavid@gmail.com</a>.</p>
+			<content:encoded><![CDATA[<p>In reply to <a href="faq#comment-3231">myangelodavid@gmail.com</a>.</p>
 <p>try to understand the logic , or if you find any non logical sentences, you may describe . Do not show us the behavior of your clan</p>
 ]]></content:encoded>
 		
@@ -229,7 +229,7 @@ Q 8. অনুগ্রহ করে &#8220;Free Will&#8221; সম্পর্�
 					<description><![CDATA[In reply to &lt;a href=&quot;/faq#comment-980&quot;&gt;Md Mozammal Hossain&lt;/a&gt;.
 
 বাস্তবতা মেনে নেওয়াই মুখ্য, সেখানে অন্ধভাবে বিশ্বাস অর্থহীন।]]></description>
-			<content:encoded><![CDATA[<p>In reply to <a href="/faq#comment-980">Md Mozammal Hossain</a>.</p>
+			<content:encoded><![CDATA[<p>In reply to <a href="faq#comment-980">Md Mozammal Hossain</a>.</p>
 <p>বাস্তবতা মেনে নেওয়াই মুখ্য, সেখানে অন্ধভাবে বিশ্বাস অর্থহীন।</p>
 ]]></content:encoded>
 		
@@ -246,7 +246,7 @@ Q 8. অনুগ্রহ করে &#8220;Free Will&#8221; সম্পর্�
 					<description><![CDATA[In reply to &lt;a href=&quot;/faq#comment-953&quot;&gt;hafizsumon&lt;/a&gt;.
 
 কেমনে বুঝান।]]></description>
-			<content:encoded><![CDATA[<p>In reply to <a href="/faq#comment-953">hafizsumon</a>.</p>
+			<content:encoded><![CDATA[<p>In reply to <a href="faq#comment-953">hafizsumon</a>.</p>
 <p>কেমনে বুঝান।</p>
 ]]></content:encoded>
 		
